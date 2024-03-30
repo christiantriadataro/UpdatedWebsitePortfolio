@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+:root {
+    --background-color: #010C15;
+    --foreground-color: #011627;
+    --font-family: 'Fira Code';
+    --headline-text-size: 62px;
+    --subheadline-text-size: 32px;
+    --body-text-size: 18px;
+    --lables-text-size: 16px;
+    --code-snippets-text-size: 14px;
+
+    --primary-color1: #01080E;
+    --primary-color2: #011627;
+    --primary-color3: #011221;
+
+    --secondary-color1: #607B96;
+    --secondary-color2: #3C9D93;
+    --secondary-color3: #4D5BCE;
+    --secondary-color4: #FFFFFF;
+
+    --accent-color1: #FEA55F;
+    --accent-color2: #43D9AD;
+    --accent-color3: #E99287;
+    --accent-color4: #C98BDF;
+
+    --lines-color: #1E2D3D;
+    --gradients-color1: #4D5BCE;
+    --gradients-color2: #43D9AD;
+
+    --foreground-width-size: 1782px;
+    --foreground-height-size: 941.32px;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+font{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/**:not(.header, .content1, .title, .nav-link, .footer, .footer-links, .footer-content1, .footer-content2, .footer > div > p, .foreground ) {*/
+/*    border: 1px solid red;*/
+/*}*/
+
+body {
+    background-color: var(--background-color);
+    height: inherit;
+    width: inherit;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foreground {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: var(--foreground-width-size);
+    height: var(--foreground-height-size);
+
+    margin: 69px;
+    background-color: var(--foreground-color);
+    border-radius: 8px;
+    border: 1px solid var(--lines-color);
+}

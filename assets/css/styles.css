@@ -1,0 +1,96 @@
+
+
+ .content {
+     /*position: absolute;*/
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     height: 75vh;
+ }
+
+ .introduction {
+     display: flex;
+     flex-direction: column;
+
+     gap: 81px;
+ }
+
+
+ .introduction-content1 > p:nth-child(1) {
+    font-size: var(--body-text-size);
+     color: #E5E9F0;
+ }
+
+.introduction-content1 > p:nth-child(2) {
+    font-size: var(--headline-text-size);
+    color: #E5E9F0;
+}
+
+.introduction-content1 > p:nth-child(3) {
+    font-size: var(--subheadline-text-size);
+    color: #4D5BCE;
+}
+
+.introduction-content2 > p {
+    margin: 10px 0;
+}
+
+.introduction-content2 > p:nth-child(1), .introduction-content2 > p:nth-child(2) {
+    font-size: var(--lables-text-size);
+    color: #607B96;
+}
+
+.introduction-content2 > p:nth-child(3) {
+    color: #fff;
+}
+
+.introduction-content2 > p:nth-child(3) > span:nth-child(1) {
+    color: #4D5BCE;
+}
+
+.introduction-content2 > p:nth-child(3) > span:nth-child(2) {
+    color: #43D9AD;
+}
+
+.introduction-content2 > p:nth-child(3) > span:nth-child(3) {
+    color: #E99287;
+}
+
+.blurs {
+    background: url("../image/blurs.png");
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    left: 40%;
+}
+
+.gists {
+    scroll-behavior: auto;
+    height: 734px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.gist {
+    width: 560px;
+    height: 182px;
+    margin-bottom: 18px;
+    background-color: var(--background-color)
+}
+
+.gist:nth-child(3) {
+    z-index: 99;
+}
+
+
+
+
+

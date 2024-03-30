@@ -1,0 +1,45 @@
+
+.bordered {
+    border: 1px dashed red;
+}
+
+
+/* end of the header */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+}
+
+.toolbar .icon {
+    padding: 17px 20px;
+}
+
+/*.content {*/
+/*    !*position: absolute;*!*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    gap: 10px;*/
+/*    height: 75vh;*/
+/*}*/
+
+.toolbar {
+    width: 68px;
+    /*border: 1px solid black;*/
+    height: inherit;
+}
+
+.sidebar {
+    /*border: 1px solid black;*/
+    width: 248px;
+    height: inherit;
+}
+
+
+
+
+
+
