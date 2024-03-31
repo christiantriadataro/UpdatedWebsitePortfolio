@@ -53,9 +53,24 @@ font{
     -webkit-font-smoothing: antialiased !important;
 }
 
-/**:not(.header, .content1, .title, .nav-link, .footer, .footer-links, .footer-content1, .footer-content2, .footer > div > p, .foreground ) {*/
-/*    border: 1px solid red;*/
-/*}*/
+*:not(
+html, body,
+/* header */
+.header, .content1, .title, .nav-link, .nav-link > svg, .title > svg,
+/* content */
+.foreground,
+/* about me content */
+.content, .toolbar, .toolbar-container, .toolbar-container > .icon,
+.sidebar, .info, .info-head, .info-head > svg, .contacts, .contacts-head,
+.contacts-head > svg,
+ .tab1, .tab2,
+/* footer */
+ .footer, .footer-links, .footer-content1, .footer-content2, .footer > div > p,
+ .footer-content1 > p > svg, .icon-container > .footer-icon, .icon-container,
+ .icon-container2 > svg, .icon-container2, .footer-content2, .footer-content2 > p > svg
+ ) {
+    border: 1px solid red;
+}
 
 body {
     background-color: var(--background-color);
@@ -81,4 +96,10 @@ body {
     background-color: var(--foreground-color);
     border-radius: 8px;
     border: 1px solid var(--lines-color);
+}
+
+.content {
+    display: flex;
+
+    height: 100%;
 }

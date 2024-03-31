@@ -1,19 +1,16 @@
 
-.bordered {
-    border: 1px dashed red;
-}
-
-
 /* end of the header */
 
 .content {
-    display: flex;
     flex-direction: row;
-    height: 75vh;
 }
 
-.toolbar .icon {
-    padding: 17px 20px;
+
+.toolbar-container {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*.content {*/
@@ -28,14 +25,36 @@
 
 .toolbar {
     width: 68px;
+    border-right: 1px solid var(--lines-color);
     /*border: 1px solid black;*/
     height: inherit;
 }
 
 .sidebar {
     /*border: 1px solid black;*/
-    width: 248px;
-    height: inherit;
+    width: 243px;
+    height: 837px;
+}
+
+.info {
+    height: 228px;
+}
+
+.info-head, .contacts-head {
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    gap: 11px;
+}
+
+.contacts {
+    height: 609px;
+}
+
+.contacts-body {
+    height: 567px;
 }
 
 

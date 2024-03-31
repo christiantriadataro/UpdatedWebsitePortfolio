@@ -7,12 +7,10 @@
     <list default="true" id="cb995378-b835-49ba-b592-529e95dc0282" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/about-me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/root.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
       <workItem from="1711785990520" duration="3969000" />
       <workItem from="1711786430893" duration="7248000" />
       <workItem from="1711866149493" duration="2932000" />
+      <workItem from="1711869180911" duration="3866000" />
     </task>
     <servers />
   </component>
