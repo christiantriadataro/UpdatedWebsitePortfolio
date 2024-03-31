@@ -1,10 +1,8 @@
-
 /* end of the header */
 
 .content {
     flex-direction: row;
 }
-
 
 .toolbar-container {
     height: 55px;
@@ -12,16 +10,6 @@
     align-items: center;
     justify-content: center;
 }
-
-/*.content {*/
-/*    !*position: absolute;*!*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    gap: 10px;*/
-/*    height: 75vh;*/
-/*}*/
 
 .toolbar {
     width: 68px;
@@ -32,8 +20,10 @@
 
 .sidebar {
     /*border: 1px solid black;*/
-    width: 243px;
+    width: 244px;
     height: 837px;
+
+    border-right: 1px solid var(--lines-color);
 }
 
 .info {
@@ -49,16 +39,53 @@
     gap: 11px;
 }
 
+.info-body {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-child:nth-child(1), .info-child:nth-child(2), .info-child:nth-child(3) {
+    padding-left: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.info-body > .info-child:nth-child(3) {
+    padding-left: 12px;
+}
+
+.info-body > .info-child:nth-child(4), .info-body > .info-child:nth-child(5) {
+    margin-left: 38px;
+    display: flex;
+    align-items: center;
+    /*background-color: red;*/
+    gap: 8px;
+}
+
+.info-child:nth-child(1) > svg:nth-child(1),
+.info-child:nth-child(2) > svg:nth-child(1),
+.info-child:nth-child(3) > svg:nth-child(1)
+
+{
+    margin-right: 13px;
+    /*background-color: red;*/
+}
+
+.info-child > svg:nth-child(2) {
+    margin-right: 8px;
+}
+
 .contacts {
     height: 609px;
+    border-top: 1px solid var(--lines-color)
+}
+
+.contacts-head {
+    border-bottom: 1px solid var(--lines-color)
 }
 
 .contacts-body {
     height: 567px;
 }
-
-
-
-
-
-

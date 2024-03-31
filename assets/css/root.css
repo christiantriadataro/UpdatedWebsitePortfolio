@@ -62,7 +62,8 @@ html, body,
 /* about me content */
 .content, .toolbar, .toolbar-container, .toolbar-container > .icon,
 .sidebar, .info, .info-head, .info-head > svg, .contacts, .contacts-head,
-.contacts-head > svg,
+.info-body, .info-child > svg, .info-child,
+.contacts-head > svg, .contacts-body,
  .tab1, .tab2,
 /* footer */
  .footer, .footer-links, .footer-content1, .footer-content2, .footer > div > p,
