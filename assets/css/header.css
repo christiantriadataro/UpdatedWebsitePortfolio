@@ -48,3 +48,7 @@
     color: var(--secondary-color4);
     border-bottom: 3px solid var(--accent-color1);
 }
+
+.active > svg > path {
+    fill: var(--secondary-color4);
+}
