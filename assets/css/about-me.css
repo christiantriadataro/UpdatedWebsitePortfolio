@@ -18,6 +18,8 @@
     height: inherit;
 }
 
+/* sidebar */
+
 .sidebar {
     /*border: 1px solid black;*/
     width: 244px;
@@ -86,6 +88,37 @@
     border-bottom: 1px solid var(--lines-color)
 }
 
+.info-head {
+    border-bottom: 1px solid var(--lines-color)
+}
+
 .contacts-body {
     height: 567px;
 }
+
+/* tab1 */
+.tab {
+    width: 218px;
+    height: 42px;
+}
+
+.editor-tab {
+    width: 698px;
+    height: 794px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.editor-body {
+    width: 672px;
+    height: 100%;
+}
+
+.editor-scroll {
+    width: 26px;
+    height: 100%;
+}
+
+
