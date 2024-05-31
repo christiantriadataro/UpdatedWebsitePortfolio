@@ -506,10 +506,10 @@ const Projects = () => {
             className="bg-[#011627] overflow-hidden w-full h-full mx-auto rounded-md flexflex-col lg:justify-between border border-[#1E2D3D]">
             <Header isHeaderClicked={isHeaderClicked} setIsHeaderClicked={setIsHeaderClicked}/>
             <div
-                className={`h-[56px] lg:hidden flex items-center pl-[18px] border-l border-[#1E2D3D] lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
+                className={`${isHeaderClicked ? "hidden" : ""} h-[56px] lg:hidden flex items-center pl-[18px] border-l border-[#1E2D3D] lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
                 _projects
             </div>
-            <div className="w-full flex flex-col lg:flex-row">
+            <div className={`${isHeaderClicked ? "hidden" : ""} w-full flex flex-col lg:flex-row`}>
                 <SideCategories categories={category} isChecked={isChecked} setIsChecked={setIsChecked}
                                 currentCheck={selectedCategories} setCurrentCheck={setSelectedCategories}/>
                 <div

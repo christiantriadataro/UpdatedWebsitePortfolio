@@ -55,7 +55,7 @@ const ContactMe = () => {
             className="bg-[#011627] overflow-auto lg:overflow-hidden w-full h-full mx-auto rounded-md border border-[#1E2D3D]">
             <Header isHeaderClicked={isHeaderClicked} setIsHeaderClicked={setIsHeaderClicked}/>
             <div
-                className={`h-[56px] lg:hidden flex items-center pl-[18px] border-l border-[#1E2D3D]  lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
+                className={`${isHeaderClicked ? "hidden" : ""} h-[56px] lg:hidden flex items-center pl-[18px] border-l border-[#1E2D3D]  lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
                 _contact-me
             </div>
             <div className={`${isHeaderClicked ? "hidden" : ""} w-full h-full flex flex-col lg:flex-row`}>
