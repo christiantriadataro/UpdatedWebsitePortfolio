@@ -28,7 +28,7 @@ const SideCategories = ({categories, isChecked, setIsChecked, currentCheck, setC
     return (
         <>
             {/*<div className="w-full  lg:h-full flex flex-col border-r border-[#1E2D3D]"></div>*/}
-            <div className="w-full lg:w-[302px] border-r border-[#1E2D3D]">
+            <div className="w-full xl:w-4/12 lg:3/12 border-r border-[#1E2D3D]">
                 <button className={`w-full w-[252px] h-[35px] border-b border-[#1E2D3D]
                             flex flex-row pl-4 items-center gap-2`} onClick={handleClicked}>
                     <TitleCardDownIcon className={`transition duration-100 ${isOpen ? "-rotate-90" : ""}`}/>

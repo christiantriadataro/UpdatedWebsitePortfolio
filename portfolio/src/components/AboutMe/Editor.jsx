@@ -8,7 +8,7 @@ const Editor = ({info, subSection, index}) => {
     const lines = Array.from({length: 27}, (_, i) => i + 1)
 
     return (
-        <div className="w-">
+        <div className="lg:h-full">
             <div
                 className="w-[200px]  h-[34px] border-r border-[#1E2D3D] flex flex-row pl-4 justify-between pr-2 items-center">
                 <div className="text-[12px] text-[#607B96]">{info.title}.js</div>

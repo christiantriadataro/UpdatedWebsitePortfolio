@@ -96,7 +96,7 @@ const ExperienceSnippet = () => {
                 <div className="w-full h-full border-r border-[#1E2D3D]
                                 pt-[15px] px-4 text-[#607B96] text-[13px]">
                     <div className="">// Experience Showcase</div>
-                    <div className="h-full no-scrollbar overflow-y-auto flex flex-col pb-32 gap-8 py-5">
+                    <div className="h-full no-scrollbar overflow-y-auto flex flex-col lg:pb-32 gap-8 py-5">
                         {experience.map((job) => (
                             <ExperienceCard key={job['job name']} job={job}/>
                         ))}

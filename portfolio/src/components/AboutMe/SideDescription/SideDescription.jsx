@@ -8,7 +8,7 @@ import PhoneIcon from "../Sidebar/PhoneIcon.jsx";
 
 const SideDescription = ({info, setSubSection, subSection}) => {
     return (
-        <div className="w-[219px] h-full border-r border-[#1E2D3D]">
+        <div className="w-[219px] hidden lg:block h-full border-r border-[#1E2D3D]">
             <div className="h-[226px]">
                 <div className="h-[35px] border-b border-[#1E2D3D]
                             flex flex-row pl-4 items-center gap-2">

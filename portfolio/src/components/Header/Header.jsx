@@ -10,10 +10,10 @@ const Header = ({setIsHeaderClicked, isHeaderClicked}) => {
     return (
         <>
             <div
-                className="text-[16px] w-full text-[#607B96] flex lg:flex-row flex-col justify-between items-center h-[56px] border-b border-[#1E2D3D] ">
-                <div className="text-[16px] w-full text-[#607B96] flex flex-col justify-between items-center h-[56px] border-b border-[#1E2D3D] ">
-                    <div className="flex h-[56px] w-full justify-between items-center px-4">
-                        <div className="flex items-center hover:bg-gray-800 h-full w-full">
+                className="text-[16px] w-full  text-[#607B96] flex lg:flex-row flex-col justify-between items-center h-[56px] border-b border-[#1E2D3D] ">
+                <div className="text-[16px] hover:bg-gray-800 w-full text-[#607B96] flex flex-col justify-between items-center h-[56px] border-b border-[#1E2D3D] ">
+                    <div className="flex h-[56px] w-full justify-between items-center px-4 ">
+                        <div className="flex items-center  h-full w-full">
                             <p>christian-tria-dataro</p>
                         </div>
                         <button className="lg:hidden p-2 pr-4" onClick={handleClicked}>

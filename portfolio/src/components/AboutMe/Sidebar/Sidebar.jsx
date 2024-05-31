@@ -46,7 +46,7 @@ const info = [
 const Sidebar = ({setInfo, setSubSection, info}) => {
 
     return (
-        <div className="w-[61px] h-full flex flex-col border-r border-[#1E2D3D]">
+        <div className="w-[61px] h-full hidden lg:flex flex-col border-r border-[#1E2D3D]">
             <button
                 className={`flex justify-center items-center h-[55px] p-3 group hover:bg-gray-800 ${info.title === 'professional-info' ? "bg-gray-800" : ""}`}
                 onClick={() => {

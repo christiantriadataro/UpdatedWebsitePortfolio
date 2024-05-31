@@ -503,7 +503,7 @@ const Projects = () => {
     });
     return (
         <div
-            className="bg-[#011627] overflow-hidden w-full h-full mx-auto lg:w-[1243px] rounded-md flexflex-col lg:justify-between border border-[#1E2D3D]">
+            className="bg-[#011627] overflow-hidden w-full h-full mx-auto rounded-md flexflex-col lg:justify-between border border-[#1E2D3D]">
             <Header isHeaderClicked={isHeaderClicked} setIsHeaderClicked={setIsHeaderClicked}/>
             <div
                 className={`h-[56px] lg:hidden flex items-center pl-[18px] border-l border-[#1E2D3D] lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
@@ -513,7 +513,8 @@ const Projects = () => {
                 <SideCategories categories={category} isChecked={isChecked} setIsChecked={setIsChecked}
                                 currentCheck={selectedCategories} setCurrentCheck={setSelectedCategories}/>
                 <div
-                    className="h-screen px-5 lg:py-10 lg:pb-32  lg:pr-3 flex lg:flex-row flex-col lg:flex-wrap lg:justify-center   overflow-y-auto lg:gap-x-5 gap-y-8 no-scrollbar">
+                    // lg:w-4/12 xl:3/12
+                    className="h-screen xl:w-8/12 lg:9/12 px-5 lg:py-10 lg:pb-32  lg:pr-3 flex lg:flex-row flex-col lg:flex-wrap lg:justify-center   overflow-y-auto lg:gap-x-5 gap-y-8 no-scrollbar">
                     {
                         filteredData.map((project, index) => (
                             <ProjectCard categories={category} key={index} project={project} index={index}

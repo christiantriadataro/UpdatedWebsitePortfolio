@@ -60,30 +60,32 @@ const AboutMe = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     return (
         <div
-            className="bg-[#011627] h-full lg:overflow-hidden w-full mx-auto lg:w-[1243px] rounded-md lg:flex flex-col lg:justify-between border border-[#1E2D3D]">
+            className="bg-[#011627] h-full lg:overflow-hidden overflow-auto w-full mx-auto rounded-md lg:flex flex-col lg:justify-between border border-[#1E2D3D]">
             <Header isHeaderClicked={isHeaderClicked} setIsHeaderClicked={setIsHeaderClicked}/>
-            <div
-                className={`lg:hidden h-[56px] flex items-center pl-[18px] border-l border-[#1E2D3D] lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
-                _about-me
+            <div className={` ${isHeaderClicked ? "hidden" : ""} w-full h-full`}>
+                <div
+                    className={`lg:hidden h-[56px] flex items-center pl-[18px] border-l border-[#1E2D3D] lg:hover:bg-gray-800 border-b-2 text-[14px] text-gray-300 border-b-[#1E2D3D]`}>
+                    _about-me
+                </div>
+                <div className="flex lg:flex-row flex-col w-full h-full">
+                    {infoObj.map((item, index) => {
+                        return <InfoSection setCurrentIndex={setCurrentIndex} currentIndex={currentIndex} key={index}
+                                            index={index} isHeaderClicked={isHeaderClicked} info={item}
+                                            setInfo={setInfo} subSection={subSection} setSubSection={setSubSection}/>
+                    })}
+                    <Sidebar info={info} setSubSection={setSubSection} setInfo={setInfo}/>
+                    <SideDescription info={info} subSection={subSection} setSubSection={setSubSection}/>
+                    {console.log(subSection)}
+                    <div className="w-full lg:h-full">
+                        <Editor info={info} subSection={subSection} index={currentIndex}/>
+                    </div>
+                    <div className="lg:w-full h-full lg:h-full">
+                        {subSection === "bio" ? <EducationSnippet/> : (subSection === "experience" ?
+                            <ExperienceSnippet/> :
+                            <CodeSnippet/>)}
+                    </div>
+                </div>
             </div>
-            <div className="flex w-full h-full">
-                {infoObj.map((item, index) => {
-                return <InfoSection setCurrentIndex={setCurrentIndex} currentIndex={currentIndex} key={index}
-                                    index={index} isHeaderClicked={isHeaderClicked} info={item}
-                                    setInfo={setInfo} subSection={subSection} setSubSection={setSubSection}/>
-            })}
-            <Sidebar info={info} setSubSection={setSubSection} setInfo={setInfo}/>
-            <SideDescription info={info} subSection={subSection} setSubSection={setSubSection}/>
-            {console.log(subSection)}
-            <div className="w-full">
-                <Editor info={info} subSection={subSection} index={currentIndex}/>
-            </div>
-            <div className="lg:w-full">
-                {subSection === "bio" ? <EducationSnippet/> : (subSection === "experience" ? <ExperienceSnippet/> :
-                    <CodeSnippet/>)}
-            </div>
-            </div>
-
             <Footer/>
         </div>
     )

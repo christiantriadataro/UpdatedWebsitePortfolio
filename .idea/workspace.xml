@@ -4,18 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb995378-b835-49ba-b592-529e95dc0282" name="Changes" comment="">
+    <list default="true" id="cb995378-b835-49ba-b592-529e95dc0282" name="Changes" comment="d">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/about-me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/Editor.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/MobileView/InfoSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/MobileView/InfoSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/CodeSnippet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/CodeSnippet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/EducationSnippet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/EducationSnippet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/ExperienceSnippet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SampleCode/ExperienceSnippet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SideDescription/SideDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/SideDescription/SideDescription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Projects/SideCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Projects/SideCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/views/AboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/views/AboutMe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/views/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/views/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,17 +53,42 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Uno Dos/WebstormProjects/UpdatedWebsitePortfolio/portfolio/src/components/Contactme&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Uno Dos\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\components\Contactme" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\views" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\components\Projects\Icon" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\assets\icons" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\assets\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\WINDOWS 10 GAMING\WebstormProjects\UpdatedWebsitePortfolio\assets\css" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\assets\icons" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\assets\image" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\components\AboutMe\Sidebar" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\components\Index" />
+      <recent name="C:\Users\Uno Dos\WebstormProjects\UpdatedWebsitePortfolio\portfolio\src\components\Footer" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,10 +105,67 @@
       <workItem from="1711869180911" duration="3866000" />
       <workItem from="1711882066289" duration="4471000" />
       <workItem from="1711947653376" duration="1518000" />
+      <workItem from="1712084185641" duration="1281000" />
+      <workItem from="1712107188102" duration="3430000" />
+      <workItem from="1712087558918" duration="1745000" />
+      <workItem from="1712223040817" duration="24212000" />
+      <workItem from="1712327657365" duration="53000" />
+      <workItem from="1712328465487" duration="33000" />
+      <workItem from="1712329139428" duration="429000" />
+      <workItem from="1712351000801" duration="44000" />
+      <workItem from="1713054647348" duration="61499000" />
+      <workItem from="1713187973303" duration="17083000" />
+      <workItem from="1713241465900" duration="4448000" />
+      <workItem from="1713246488802" duration="1797000" />
+      <workItem from="1713261322164" duration="507000" />
+      <workItem from="1713318584334" duration="21107000" />
+      <workItem from="1713350937312" duration="3058000" />
+      <workItem from="1713420873051" duration="400000" />
+      <workItem from="1713431433959" duration="3706000" />
+      <workItem from="1713442385982" duration="8799000" />
+      <workItem from="1713469164924" duration="154000" />
+      <workItem from="1713513302053" duration="609000" />
+      <workItem from="1713771563919" duration="3342000" />
+      <workItem from="1713842938684" duration="4424000" />
+      <workItem from="1713868233548" duration="9002000" />
+      <workItem from="1713890845257" duration="24480000" />
+      <workItem from="1714028936977" duration="929000" />
+      <workItem from="1714065465050" duration="2849000" />
+      <workItem from="1714102282036" duration="592000" />
+      <workItem from="1714110815224" duration="73000" />
+      <workItem from="1714110908783" duration="589000" />
+      <workItem from="1714112569144" duration="250000" />
+      <workItem from="1714461412101" duration="117000" />
+      <workItem from="1714619525258" duration="43000" />
+      <workItem from="1714632171753" duration="1927000" />
+      <workItem from="1714658418039" duration="45000" />
+      <workItem from="1714734966429" duration="75000" />
+      <workItem from="1715778451157" duration="3434000" />
+      <workItem from="1715784294201" duration="624000" />
+      <workItem from="1715784942915" duration="5000" />
+      <workItem from="1715824393429" duration="7000" />
+      <workItem from="1716092686217" duration="14000" />
+      <workItem from="1716814926787" duration="18887000" />
+      <workItem from="1717050673384" duration="16117000" />
+      <workItem from="1717075519511" duration="2805000" />
+      <workItem from="1717136769413" duration="12423000" />
+      <workItem from="1717150717444" duration="49000" />
+      <workItem from="1717150944027" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/portfolio/src/views/ContactMe.jsx</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
