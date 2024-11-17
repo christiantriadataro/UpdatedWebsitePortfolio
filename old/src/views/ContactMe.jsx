@@ -139,7 +139,7 @@ const ContactMe = () => {
                                     <span><span className="text-[#5565E8]">button</span>.<span
                                         className="text-[#5565E8]">addEventListener</span>( <span
                                         className="text-[#FEA55F]">'click'</span> ), () <span
-                                        className="text-[#C98BDF]">=></span> <span>{`{`}</span></span><br/>
+                                        className="text-[#C98BDF]">{'=>'}</span> <span>{`{`}</span></span><br/>
                                     <span className="pl-6"><span className="text-[#5565E8]">form</span>.<span
                                         className="text-[#5565E8]">send</span>  ( <span
                                         className="text-[#5565E8]">message</span> );</span><br/>
