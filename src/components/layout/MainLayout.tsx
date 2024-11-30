@@ -1,19 +1,22 @@
 import HeaderProvider from "../../contexts/HeaderProvider.tsx";
-import MainLayoutWrapper from "../wrappers/MainLayoutWrapper.tsx";
 import Header from "../header/Header.tsx";
-import MainContent from "./MainContent.tsx";
 import Footer from "../footer/Footer.tsx";
+import {Outlet} from "react-router-dom";
 
 const MainLayout = () => {
 
     return (
-        <MainLayoutWrapper>
+        // <MainLayoutWrapper>
+        <div className="bg-primary-blue w-full h-full rounded-md flex flex-col border border-lines">
             <HeaderProvider>
                 <Header/>
-                <MainContent/>
+                {/*<MainContent/>*/}
+                <div className="h-full w-full">
+                    <Outlet/>
+                </div>
                 <Footer/>
             </HeaderProvider>
-        </MainLayoutWrapper>
+        </div>
     )
 }
 

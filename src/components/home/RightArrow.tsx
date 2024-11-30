@@ -1,4 +1,8 @@
-const RightArrow = (props) => {
+import {ComponentProps} from "react";
+
+type Icon = ComponentProps<'svg'> & {}
+
+const RightArrow = (props: Icon) => {
     return (
         <svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
             <rect x="34.353" y="21.4698" width="33.7905" height="20.9758" rx="7.5"
