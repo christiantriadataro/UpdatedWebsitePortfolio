@@ -1,11 +1,133 @@
 {
-  "project_categories": [],
+  "categories": [
+    {
+      "name": "Company Projects",
+      "icon": "../src/assets/icons/company-scale-project.svg"
+    },
+    {
+      "name": "Freelance Projects",
+      "icon": "../src/assets/icons/side-project.svg"
+    },
+    {
+      "name": "Experimental Projects",
+      "icon": "../src/assets/icons/small-project.svg"
+    },
+    {
+      "name": "UI/UX Figma",
+      "icon": "../src/assets/icons/figma.svg"
+    },
+    {
+      "name": "React",
+      "icon": "../src/assets/icons/react.svg"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "../src/assets/icons/tailwind.svg"
+    },
+    {
+      "name": "AI/Machine Learning",
+      "icon": "../src/assets/icons/machine-learning.svg"
+    },
+    {
+      "name": "Java",
+      "icon": "../src/assets/icons/java.svg"
+    },
+    {
+      "name": "Unity",
+      "icon": "../src/assets/icons/unity.svg"
+    },
+    {
+      "name": "Django",
+      "icon": "../src/assets/icons/django.svg"
+    },
+    {
+      "name": "REST API",
+      "icon": "../src/assets/icons/rest-api.svg"
+    }
+  ],
+  "project_categories": [
+    {
+      "Company Projects": "../src/assets/icons/company-scale-project.svg"
+    },
+    {
+      "Freelance Projects": "../src/assets/icons/side-project.svg"
+    },
+    {
+      "Experimental Projects": "../src/assets/icons/small-project.svg"
+    },
+    {
+      "UI/UX Figma": "../src/assets/icons/figma.svg"
+    },
+    {
+      "React": "../src/assets/icons/react.svg"
+    },
+    {
+      "Tailwind": "../src/assets/icons/tailwind.svg"
+    },
+    {
+      "AI/Machine Learning": "../src/assets/icons/machine-learning.svg"
+    },
+    {
+      "Java": "../src/assets/icons/java.svg"
+    },
+    {
+      "Unity": "../src/assets/icons/unity.svg"
+    },
+    {
+      "Django": "../src/assets/icons/django.svg"
+    },
+    {
+      "REST API": "../src/assets/icons/rest-api.svg"
+    }
+  ],
   "projects": [
     {
-      "image": "../src/assets/image/inbetween.png",
-      "project name": "IN BETWEEN",
+      "image": "../src/assets/image/cubework.jpg",
+      "name": "Cubework US: Admin Console",
       "categories": [
-        "Company Scale Project",
+        "Company Projects",
+        "UI/UX Figma",
+        "React",
+        "Tailwind",
+        "Django",
+        "REST API"
+      ],
+      "description": [
+        "Transformed API Fox documentation into functional components for seamless integration with frontend applications.",
+        "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+        "Discussing with US Business Analyst, Chinese Managers, and Project Managers about the functional requirements needed to make sure that it aligns with the timeline.",
+        "Implemented Frontend System Design to make sure the functional requirements aligns with the client needs while optimizing the overall system.",
+        "Implemented Payment Gateway for the Pay and Bill API, Customer Management for the CRM API, and Authorization of IAM API",
+        "Used Technologies: Figma, Tailwind, React, TypeScript, Redux, Axios, Postman, ShadCN, TanStack Query",
+        "Backend Technologies: Java Spring Boot, Spring Boot API Fox (Open API), .NET, .NET API Fox (Open API)"
+      ]
+    },
+    {
+      "image": "../src/assets/image/cubework.jpg",
+      "name": "Cubework US: Tenant Portal",
+      "categories": [
+        "Company Projects",
+        "UI/UX Figma",
+        "React",
+        "Tailwind",
+        "Django",
+        "REST API"
+      ],
+      "description": [
+        "Transformed API Fox documentation into functional components for seamless integration with frontend applications.",
+        "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+        "Discussing with US Business Analyst, Chinese Managers, and Project Managers about the functional requirements needed to make sure that it aligns with the timeline.",
+        "Implemented Frontend System Design to make sure the functional requirements aligns with the client needs while optimizing the overall system.",
+        "Implemented Payment Gateway for the Pay and Bill API, Customer Management for the CRM API, and Authorization of IAM API",
+        "Used Technologies: Figma, Tailwind, React, TypeScript, Redux, Axios, Postman, ShadCN, TanStack Query",
+        "Backend Technologies: Java Spring Boot, Spring Boot API Fox (Open API), .NET, .NET API Fox (Open API)"
+      ]
+    },
+    {
+      "image": "../src/assets/image/inbetween.png",
+      "name": "IN BETWEEN: Agent System",
+      "categories": [
+        "Company Projects",
         "UI/UX Figma",
         "React",
         "Tailwind",
@@ -21,10 +143,29 @@
       ]
     },
     {
-      "image": "UNODOSImage",
-      "project name": "SABONG (Indonesia): PWA",
+      "image": "../src/assets/image/inbetween.png",
+      "name": "IN BETWEEN",
       "categories": [
-        "Company Scale Project",
+        "Company Projects",
+        "UI/UX Figma",
+        "React",
+        "Tailwind",
+        "Django",
+        "REST API"
+      ],
+      "description": [
+        "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+        "Created a Prototype to propose a visually appealing and intuitive interfaces to the stakeholders.",
+        "Transformed Swagger API documentation into functional components for seamless integration with frontend applications.",
+        "Established the Web App based on the following: Overall Admin, Admin, Declarator, Guarantor, Master Agent, Sub-Agent, Player",
+        "Collaborated with backend developers to integrated real-time data using Signal R and other backend APIs "
+      ]
+    },
+    {
+      "image": "../src/assets/image/unodosImage.png",
+      "name": "SABONG (Indonesia): PWA",
+      "categories": [
+        "Company Projects",
         "React",
         "UI/UX Figma",
         "Tailwind",
@@ -39,10 +180,10 @@
       ]
     },
     {
-      "image": "UNODOSImage",
-      "project name": "SABONG (Phillipine and Korea): PWA",
+      "image": "../src/assets/image/unodosImage.png",
+      "name": "SABONG (Phillipine and Korea): PWA",
       "categories": [
-        "Company Scale Project",
+        "Company Projects",
         "UI/UX Figma",
         "React",
         "Tailwind",
@@ -57,10 +198,10 @@
       ]
     },
     {
-      "image": "SEAMACImage",
-      "project name": "CourseForge: Course Management System with hybrid recommender system",
+      "image": "../src/assets/image/seamac.png",
+      "name": "CourseForge: Course Management System with hybrid recommender system",
       "categories": [
-        "Company Scale Project",
+        "Freelance Projects",
         "React",
         "UI/UX Figma",
         "Tailwind",
@@ -79,10 +220,10 @@
       ]
     },
     {
-      "image": "AutoAxisImage",
-      "project name": "Auto Axis: A Web Auto Repair Shop Management System and a Mobile Proximity Geolocation Services",
+      "image": "../src/assets/image/autoaxis.png",
+      "name": "Auto Axis: A Web Auto Repair Shop Management System and a Mobile Proximity Geolocation Services",
       "categories": [
-        "Company Scale Project",
+        "Freelance Projects",
         "React",
         "UI/UX Figma",
         "Tailwind",
@@ -103,10 +244,10 @@
       ]
     },
     {
-      "image": "BBMCImage",
-      "project name": "Padayon's Tech: Online Ordering and Inventory Management System using Time Series and Analysis with ARIMA Model for Bagong Barrio Merchandise and Construction",
+      "image": "../src/assets/image/bbmc-final.png",
+      "name": "Padayon's Tech: Online Ordering and Inventory Management System using Time Series and Analysis with ARIMA Model for Bagong Barrio Merchandise and Construction",
       "categories": [
-        "Company Scale Project",
+        "Freelance Projects",
         "UI/UX Figma",
         "React",
         "Tailwind",
@@ -127,10 +268,10 @@
       ]
     },
     {
-      "image": "MDCCImage",
-      "project name": "MDCC Intranet: Employees e-learning platform with CMS",
+      "image": "../src/assets/image/mdcc.png",
+      "name": "MDCC Intranet: Employees e-learning platform with CMS",
       "categories": [
-        "Company Scale Project",
+        "Company Projects",
         "UI/UX Figma",
         "React",
         "Tailwind"
@@ -144,10 +285,10 @@
       ]
     },
     {
-      "image": "JetaImage",
-      "project name": "JETA: The Nutritional meal ordering and Delivery App with Web-based Admin Management",
+      "image": "../src/assets/image/jeta-final.png",
+      "name": "JETA: The Nutritional meal ordering and Delivery App with Web-based Admin Management",
       "categories": [
-        "Company Scale Project",
+        "Freelance Projects",
         "React",
         "UI/UX Figma",
         "Tailwind",
@@ -162,10 +303,10 @@
       ]
     },
     {
-      "image": "iClickImage",
-      "project name": "iClick: A Mobile and Web-based application for barangay Camp Aguinaldo using Apriori Algorithm",
+      "image": "../src/assets/image/iclick-final.png",
+      "name": "iClick: A Mobile and Web-based application for barangay Camp Aguinaldo using Apriori Algorithm",
       "categories": [
-        "Company Scale Project",
+        "Freelance Projects",
         "React",
         "UI/UX Figma",
         "Tailwind",
@@ -182,10 +323,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Naive Bees: Image Loading and Processing",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Naive Bees: Image Loading and Processing",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -193,10 +334,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "The Hottest&nbsp; Topics in Machine Learning",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "The Hottest&nbsp; Topics in Machine Learning",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -204,10 +345,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Naive Bees: Species from Images",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Naive Bees: Species from Images",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -215,10 +356,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Classify Song Genres from Audio Data",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Classify Song Genres from Audio Data",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -226,10 +367,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Predict Taxi Fares with Random Forests",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Predict Taxi Fares with Random Forests",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -237,10 +378,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "ASL Recognition with Deep Learning",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "ASL Recognition with Deep Learning",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -248,10 +389,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Clustering Heart Disease Patient Data",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Clustering Heart Disease Patient Data",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -259,10 +400,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Naive Bees: Deep Learning with Images",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Naive Bees: Deep Learning with Images",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -270,10 +411,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Predicting Credit Card Approvals",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Predicting Credit Card Approvals",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -281,10 +422,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Degrees that Pay you back",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Degrees that Pay you back",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -292,10 +433,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Planning Public Policy in Argentina",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Planning Public Policy in Argentina",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -303,10 +444,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Clustering Bustabit Gambling Behavior",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Clustering Bustabit Gambling Behavior",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -314,10 +455,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Give Life: Predict Blood Donations",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Give Life: Predict Blood Donations",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -325,10 +466,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Find Movie Similarity from Plot Summaries",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Find Movie Similarity from Plot Summaries",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -336,10 +477,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Comparing Cosmetics by Ingredients",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Comparing Cosmetics by Ingredients",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -347,10 +488,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "The Impact of Climate&nbsp; Change on Birds",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "The Impact of Climate&nbsp; Change on Birds",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -358,10 +499,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "What Makes a Pokemon Legendary?",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "What Makes a Pokemon Legendary?",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -369,10 +510,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Predictive Modeling for Agriculture",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Predictive Modeling for Agriculture",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -380,10 +521,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Predicting Move Rental Durations",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Predicting Move Rental Durations",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -391,10 +532,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Interpreting Unsupervised Learning Models",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Interpreting Unsupervised Learning Models",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -402,10 +543,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Planning a Trip to Paris with the OpenAI API",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Planning a Trip to Paris with the OpenAI API",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -413,10 +554,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Reducing Traffic Mortality in the USA",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Reducing Traffic Mortality in the USA",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -424,10 +565,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Modeling Car Insurance Claim Outcomes",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Modeling Car Insurance Claim Outcomes",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -435,10 +576,10 @@
       ]
     },
     {
-      "image": "DataCampImage",
-      "project name": "Predicting Temperature in London",
+      "image": "../src/assets/image/datacamp.png",
+      "name": "Predicting Temperature in London",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "AI/Machine Learning"
       ],
       "description": [
@@ -446,10 +587,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Cinema REST&nbsp;Room Manager",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Cinema REST&nbsp;Room Manager",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -458,10 +599,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Readability Score",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Readability Score",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -470,10 +611,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Battleship",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Battleship",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -482,10 +623,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Traffic Light",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Traffic Light",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -494,10 +635,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Rock-Paper-Scissors",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Rock-Paper-Scissors",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -506,10 +647,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Bulls and Cows",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Bulls and Cows",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -518,10 +659,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Chuck Norris Cipher En coder",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Chuck Norris Cipher En coder",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -530,10 +671,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Coffee Machine",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Coffee Machine",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -542,10 +683,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Amazing Numbers",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Amazing Numbers",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -554,10 +695,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Simple Tic-Tac-Toe",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Simple Tic-Tac-Toe",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -566,10 +707,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Cinema Room Manager ",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Cinema Room Manager ",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -578,10 +719,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Zookeeper",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Zookeeper",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -590,10 +731,10 @@
       ]
     },
     {
-      "image": "JetbrainJava",
-      "project name": "Simple Chatty Bot",
+      "image": "../src/assets/image/jetbrains_java.png",
+      "name": "Simple Chatty Bot",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Java",
         "REST API"
       ],
@@ -602,10 +743,10 @@
       ]
     },
     {
-      "image": "JetbrainPython",
-      "project name": "HyperSchool",
+      "image": "../src/assets/image/jetbrains_django_python.png",
+      "name": "HyperSchool",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Django",
         "REST API"
       ],
@@ -614,10 +755,10 @@
       ]
     },
     {
-      "image": "JetbrainPython",
-      "project name": "HyperNews Portal",
+      "image": "../src/assets/image/jetbrains_django_python.png",
+      "name": "HyperNews Portal",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Django",
         "REST API"
       ],
@@ -626,10 +767,10 @@
       ]
     },
     {
-      "image": "JetbrainPython",
-      "project name": "HyperJob Agency",
+      "image": "../src/assets/image/jetbrains_django_python.png",
+      "name": "HyperJob Agency",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Django",
         "REST API"
       ],
@@ -638,10 +779,10 @@
       ]
     },
     {
-      "image": "JetbrainPython",
-      "project name": "HyperForms",
+      "image": "../src/assets/image/jetbrains_django_python.png",
+      "name": "HyperForms",
       "categories": [
-        "Side Project",
+        "Experimental Projects",
         "Django",
         "REST API"
       ],
