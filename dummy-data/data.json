@@ -2,87 +2,87 @@
   "categories": [
     {
       "name": "Company Projects",
-      "icon": "../src/assets/icons/company-scale-project.svg"
+      "icon": "/assets/icons/company-scale-project.svg"
     },
     {
       "name": "Freelance Projects",
-      "icon": "../src/assets/icons/side-project.svg"
+      "icon": "/assets/icons/side-project.svg"
     },
     {
       "name": "Experimental Projects",
-      "icon": "../src/assets/icons/small-project.svg"
+      "icon": "/assets/icons/small-project.svg"
     },
     {
       "name": "UI/UX Figma",
-      "icon": "../src/assets/icons/figma.svg"
+      "icon": "/assets/icons/figma.svg"
     },
     {
       "name": "React",
-      "icon": "../src/assets/icons/react.svg"
+      "icon": "/assets/icons/react.svg"
     },
     {
       "name": "Tailwind",
-      "icon": "../src/assets/icons/tailwind.svg"
+      "icon": "/assets/icons/tailwind.svg"
     },
     {
       "name": "AI/Machine Learning",
-      "icon": "../src/assets/icons/machine-learning.svg"
+      "icon": "/assets/icons/machine-learning.svg"
     },
     {
       "name": "Java",
-      "icon": "../src/assets/icons/java.svg"
+      "icon": "/assets/icons/java.svg"
     },
     {
       "name": "Unity",
-      "icon": "../src/assets/icons/unity.svg"
+      "icon": "/assets/icons/unity.svg"
     },
     {
       "name": "Django",
-      "icon": "../src/assets/icons/django.svg"
+      "icon": "/assets/icons/django.svg"
     },
     {
       "name": "REST API",
-      "icon": "../src/assets/icons/rest-api.svg"
+      "icon": "/assets/icons/rest-api.svg"
     }
   ],
   "project_categories": [
     {
-      "Company Projects": "../src/assets/icons/company-scale-project.svg"
+      "Company Projects": "/assets/icons/company-scale-project.svg"
     },
     {
-      "Freelance Projects": "../src/assets/icons/side-project.svg"
+      "Freelance Projects": "/assets/icons/side-project.svg"
     },
     {
-      "Experimental Projects": "../src/assets/icons/small-project.svg"
+      "Experimental Projects": "/assets/icons/small-project.svg"
     },
     {
-      "UI/UX Figma": "../src/assets/icons/figma.svg"
+      "UI/UX Figma": "/assets/icons/figma.svg"
     },
     {
-      "React": "../src/assets/icons/react.svg"
+      "React": "/assets/icons/react.svg"
     },
     {
-      "Tailwind": "../src/assets/icons/tailwind.svg"
+      "Tailwind": "/assets/icons/tailwind.svg"
     },
     {
-      "AI/Machine Learning": "../src/assets/icons/machine-learning.svg"
+      "AI/Machine Learning": "/assets/icons/machine-learning.svg"
     },
     {
-      "Java": "../src/assets/icons/java.svg"
+      "Java": "/assets/icons/java.svg"
     },
     {
-      "Unity": "../src/assets/icons/unity.svg"
+      "Unity": "/assets/icons/unity.svg"
     },
     {
-      "Django": "../src/assets/icons/django.svg"
+      "Django": "/assets/icons/django.svg"
     },
     {
-      "REST API": "../src/assets/icons/rest-api.svg"
+      "REST API": "/assets/icons/rest-api.svg"
     }
   ],
   "projects": [
     {
-      "image": "../src/assets/image/cubework.jpg",
+      "image": "/assets/image/cubework.jpg",
       "name": "Cubework US: Admin Console",
       "categories": [
         "Company Projects",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/cubework.jpg",
+      "image": "/assets/image/cubework.jpg",
       "name": "Cubework US: Tenant Portal",
       "categories": [
         "Company Projects",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/inbetween.png",
+      "image": "/assets/image/inbetween.png",
       "name": "IN BETWEEN: Agent System",
       "categories": [
         "Company Projects",
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/inbetween.png",
+      "image": "/assets/image/inbetween.png",
       "name": "IN BETWEEN",
       "categories": [
         "Company Projects",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/unodosImage.png",
+      "image": "/assets/image/unodosImage.png",
       "name": "SABONG (Indonesia): PWA",
       "categories": [
         "Company Projects",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/unodosImage.png",
+      "image": "/assets/image/unodosImage.png",
       "name": "SABONG (Phillipine and Korea): PWA",
       "categories": [
         "Company Projects",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/seamac.png",
+      "image": "/assets/image/seamac.png",
       "name": "CourseForge: Course Management System with hybrid recommender system",
       "categories": [
         "Freelance Projects",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/autoaxis.png",
+      "image": "/assets/image/autoaxis.png",
       "name": "Auto Axis: A Web Auto Repair Shop Management System and a Mobile Proximity Geolocation Services",
       "categories": [
         "Freelance Projects",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/bbmc-final.png",
+      "image": "/assets/image/bbmc-final.png",
       "name": "Padayon's Tech: Online Ordering and Inventory Management System using Time Series and Analysis with ARIMA Model for Bagong Barrio Merchandise and Construction",
       "categories": [
         "Freelance Projects",
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/mdcc.png",
+      "image": "/assets/image/mdcc.png",
       "name": "MDCC Intranet: Employees e-learning platform with CMS",
       "categories": [
         "Company Projects",
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jeta-final.png",
+      "image": "/assets/image/jeta-final.png",
       "name": "JETA: The Nutritional meal ordering and Delivery App with Web-based Admin Management",
       "categories": [
         "Freelance Projects",
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/iclick-final.png",
+      "image": "/assets/image/iclick-final.png",
       "name": "iClick: A Mobile and Web-based application for barangay Camp Aguinaldo using Apriori Algorithm",
       "categories": [
         "Freelance Projects",
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Naive Bees: Image Loading and Processing",
       "categories": [
         "Experimental Projects",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "The Hottest&nbsp; Topics in Machine Learning",
       "categories": [
         "Experimental Projects",
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Naive Bees: Species from Images",
       "categories": [
         "Experimental Projects",
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Classify Song Genres from Audio Data",
       "categories": [
         "Experimental Projects",
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Predict Taxi Fares with Random Forests",
       "categories": [
         "Experimental Projects",
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "ASL Recognition with Deep Learning",
       "categories": [
         "Experimental Projects",
@@ -389,7 +389,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Clustering Heart Disease Patient Data",
       "categories": [
         "Experimental Projects",
@@ -400,7 +400,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Naive Bees: Deep Learning with Images",
       "categories": [
         "Experimental Projects",
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Predicting Credit Card Approvals",
       "categories": [
         "Experimental Projects",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Degrees that Pay you back",
       "categories": [
         "Experimental Projects",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Planning Public Policy in Argentina",
       "categories": [
         "Experimental Projects",
@@ -444,7 +444,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Clustering Bustabit Gambling Behavior",
       "categories": [
         "Experimental Projects",
@@ -455,7 +455,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Give Life: Predict Blood Donations",
       "categories": [
         "Experimental Projects",
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Find Movie Similarity from Plot Summaries",
       "categories": [
         "Experimental Projects",
@@ -477,7 +477,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Comparing Cosmetics by Ingredients",
       "categories": [
         "Experimental Projects",
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "The Impact of Climate&nbsp; Change on Birds",
       "categories": [
         "Experimental Projects",
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "What Makes a Pokemon Legendary?",
       "categories": [
         "Experimental Projects",
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Predictive Modeling for Agriculture",
       "categories": [
         "Experimental Projects",
@@ -521,7 +521,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Predicting Move Rental Durations",
       "categories": [
         "Experimental Projects",
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Interpreting Unsupervised Learning Models",
       "categories": [
         "Experimental Projects",
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Planning a Trip to Paris with the OpenAI API",
       "categories": [
         "Experimental Projects",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Reducing Traffic Mortality in the USA",
       "categories": [
         "Experimental Projects",
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Modeling Car Insurance Claim Outcomes",
       "categories": [
         "Experimental Projects",
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/datacamp.png",
+      "image": "/assets/image/datacamp.png",
       "name": "Predicting Temperature in London",
       "categories": [
         "Experimental Projects",
@@ -587,7 +587,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Cinema REST&nbsp;Room Manager",
       "categories": [
         "Experimental Projects",
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Readability Score",
       "categories": [
         "Experimental Projects",
@@ -611,7 +611,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Battleship",
       "categories": [
         "Experimental Projects",
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Traffic Light",
       "categories": [
         "Experimental Projects",
@@ -635,7 +635,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Rock-Paper-Scissors",
       "categories": [
         "Experimental Projects",
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Bulls and Cows",
       "categories": [
         "Experimental Projects",
@@ -659,7 +659,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Chuck Norris Cipher En coder",
       "categories": [
         "Experimental Projects",
@@ -671,7 +671,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Coffee Machine",
       "categories": [
         "Experimental Projects",
@@ -683,7 +683,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Amazing Numbers",
       "categories": [
         "Experimental Projects",
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Simple Tic-Tac-Toe",
       "categories": [
         "Experimental Projects",
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Cinema Room Manager ",
       "categories": [
         "Experimental Projects",
@@ -719,7 +719,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Zookeeper",
       "categories": [
         "Experimental Projects",
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_java.png",
+      "image": "/assets/image/jetbrains_java.png",
       "name": "Simple Chatty Bot",
       "categories": [
         "Experimental Projects",
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_django_python.png",
+      "image": "/assets/image/jetbrains_django_python.png",
       "name": "HyperSchool",
       "categories": [
         "Experimental Projects",
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_django_python.png",
+      "image": "/assets/image/jetbrains_django_python.png",
       "name": "HyperNews Portal",
       "categories": [
         "Experimental Projects",
@@ -767,7 +767,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_django_python.png",
+      "image": "/assets/image/jetbrains_django_python.png",
       "name": "HyperJob Agency",
       "categories": [
         "Experimental Projects",
@@ -779,7 +779,7 @@
       ]
     },
     {
-      "image": "../src/assets/image/jetbrains_django_python.png",
+      "image": "/assets/image/jetbrains_django_python.png",
       "name": "HyperForms",
       "categories": [
         "Experimental Projects",
