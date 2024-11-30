@@ -1,5 +1,6 @@
 import {ReactNode} from "react";
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
+
 
 
 const FooterLink = ({to, icon, text}: { to: string, icon: ReactNode, text?: string }) => {

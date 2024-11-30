@@ -1,10 +1,11 @@
 import CategoryIcon from "../icons/CategoryIcon.tsx";
-import {NavLink} from "react-router-dom";
+
 import LinkIcon from "../icons/LinkIcon.tsx";
 import FigmaIconComponent from "../icons/FigmaIconComponent.tsx";
 import GithubIconComponent from "../icons/GithubIconComponent.tsx";
 import {IProject, IProjectCategories} from "../../types/dummyData.ts";
 import {ReactNode} from "react";
+import {NavLink} from "react-router";
 
 interface IProjectCardProps {
     project: IProject;

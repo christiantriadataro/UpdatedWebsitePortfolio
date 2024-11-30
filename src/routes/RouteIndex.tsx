@@ -1,7 +1,8 @@
-import {createBrowserRouter, createRoutesFromElements, Navigate, Route} from "react-router-dom";
+
 import DummyComponent from "../components/layout/DummyComponent.tsx";
 import {ROUTER_TABS} from "../constants/router.tsx";
 import MainLayout from "../components/layout/MainLayout.tsx";
+import {createBrowserRouter, createRoutesFromElements, Navigate, Route} from "react-router";
 
 
 const router = createBrowserRouter(

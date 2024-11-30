@@ -1,5 +1,6 @@
-import {Outlet} from "react-router-dom";
+
 import MainContentWrapper from "../wrappers/MainContentWrapper.tsx";
+import {Outlet} from "react-router";
 
 const MainContent = () => {
     return (
