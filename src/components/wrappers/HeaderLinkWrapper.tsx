@@ -1,5 +1,5 @@
 import {ReactNode} from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink} from "react-router";
 
 const HeaderLinkWrapper = ({children, to}: { children: ReactNode, to: string }) => {
     return (
