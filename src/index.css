@@ -10,7 +10,7 @@
     }
 
     #root {
-        @apply relative h-screen w-screen p-20 flex justify-center items-center;
+        @apply relative h-screen w-screen p-5 xl:p-20 flex justify-center items-center;
     }
 }
 
@@ -105,7 +105,7 @@
     }
 
     .link-wrapper {
-        @apply inline lg:flex justify-end w-full lg:w-fit h-full;
+        @apply inline lg:flex justify-end w-full lg:w-full h-full;
     }
 
     .name-wrapper {
@@ -130,11 +130,11 @@
     }
 
     .heading-name {
-        @apply py-4 text-secondary-blue w-full hover:bg-gray-800 flex items-center pl-5;
+        @apply py-4 text-secondary-blue w-full hover:bg-gray-800 flex items-center justify-center pl-5 text-[10px] lg:text-[13px];
     }
 
     .heading-link {
-        @apply border-l border-lines lg:w-[150px] flex justify-center items-center hover:bg-gray-800 border-b-2;
+        @apply text-[10px] py-1 border-l border-lines xl:w-[150px] lg:w-[120px] lg:text-[13px] flex justify-center items-center hover:bg-gray-800 border-b-2;
     }
 
     .heading-link-active {
@@ -184,7 +184,6 @@
     font-family: 'Fira Code', serif;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
-    /*-moz-osx-font-smoothing: grayscale;*/
 }
 
 

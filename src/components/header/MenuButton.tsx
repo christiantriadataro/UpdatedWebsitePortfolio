@@ -1,6 +1,6 @@
 import {useContext} from "react";
 import {HeaderContext} from "../../contexts/HeaderContext.ts";
-import MenuIcon from "../../assets/icons/Menu.svg";
+import MenuIcon from "/assets/icons/Menu.svg";
 
 const MenuButton = () => {
     const {handleClicked} = useContext(HeaderContext)

@@ -44,13 +44,13 @@ const SideCategories = ({
     return (
         <>
             {/*<div className="w-full  lg:h-full flex flex-col border-r border-lines"></div>*/}
-            <div className="w-full h-full xl:w-4/12 lg:w-3/12 border-r border-lines">
+            <div className="w-full h-full xl:w-4/12 lg:w-4/12 border-r border-lines">
                 <button className={`w-full h-[35px] border-b border-lines
                             flex flex-row pl-4 items-center gap-2`} onClick={handleClicked}>
                     <TitleCardDownIcon className={`transition duration-100 ${isOpen ? "-rotate-90" : ""}`}/>
                     <div className="text-gray-50 text-[13px]">projects</div>
                 </button>
-                <div className={`${isOpen ? "" : "hidden"} transition duration-100 text-[13px] text-[#273E53]`}>
+                <div className={`${isOpen ? "" : "hidden"} transition duration-100 text-[13px] lg:text-[11px] text-[#273E53]`}>
                     {categories.map((category: IProjectCategories, index: number) => (
                         <FilterItem title={category.name} icon={category.icon}
                                     onCheck={() => handleChecked(index)} isChecked={isCheckedList[index]}

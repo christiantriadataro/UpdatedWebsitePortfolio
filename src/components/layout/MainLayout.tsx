@@ -11,11 +11,11 @@ const MainLayout = () => {
         <div className="bg-primary-blue w-full h-full rounded-md flex flex-col border border-lines">
             <HeaderProvider>
                 <Header/>
-                {/*<MainContent/>*/}
-                <div className="h-full w-full">
-                    <Outlet/>
-                </div>
-                <Footer/>
+            {/*    /!*<MainContent/>*!/*/}
+            {/*    <div className="h-full w-full">*/}
+            {/*        <Outlet/>*/}
+            {/*    </div>*/}
+            {/*    <Footer/>*/}
             </HeaderProvider>
         </div>
     )
