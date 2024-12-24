@@ -9,7 +9,7 @@ import {ReactNode} from "react";
 const HomeContentWrapper = ({children}: { children: ReactNode }) => {
     return (
         <div className="home-content-wrapper"> {children}</div>
-    )
+    ) 
 }
 
 const Home = () => {

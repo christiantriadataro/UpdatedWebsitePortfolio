@@ -1,12 +1,10 @@
-import TitlesWrapper from "../wrappers/TitlesWrapper.tsx";
-import Text from "../shared/Text.tsx";
 import {TypeAnimation} from "react-type-animation";
 
-const Titles = () => {
+const Home = () => {
     return (
-        <TitlesWrapper>
-            <Text variant="subheadline" cn="text-secondary-white animate-bounce" text="Hi all. I am"/>
-            <Text text="Christian Dataro" variant="headline" cn="text-secondary-white"/>
+        <div className="h-full w-full">
+            <div className="text-secondary-white text-subheadline">Hi all, I am</div>
+            <div className="text-secondary-white text-headline">Christian Dataro</div>
             <TypeAnimation
                 sequence={[
                     // Same substring at the start will only be typed once, initially
@@ -20,11 +18,11 @@ const Titles = () => {
                     1000,
                 ]}
                 speed={50}
-                className="text-secondary-blue-violet text-subheadline"
+                className="text-accent-green text-subheadline"
                 repeat={Infinity}
             />
-        </TitlesWrapper>
+        </div>
     )
 }
 
-export default Titles;
+export default Home

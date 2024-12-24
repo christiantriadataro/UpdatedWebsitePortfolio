@@ -1,6 +1,5 @@
-
 import DummyComponent from "../components/layout/DummyComponent.tsx";
-import {ROUTER_TABS} from "../constants/router.tsx";
+import {ROUTER_MOBILE_TABS} from "../constants/router.tsx";
 import MainLayout from "../components/layout/MainLayout.tsx";
 import {createBrowserRouter, createRoutesFromElements, Navigate, Route} from "react-router";
 
@@ -10,7 +9,7 @@ const router = createBrowserRouter(
         <>
             <Route path="/" element={<MainLayout/>}>
                 <Route path="/" element={<Navigate to="/home" replace/>}/>
-                {ROUTER_TABS.map((tab, index) =>
+                {ROUTER_MOBILE_TABS.map((tab, index) =>
                     <Route key={index} path={tab.path} element={tab.element}/>
                 )}
             </Route>
