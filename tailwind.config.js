@@ -5,19 +5,19 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        fontSize: {
-            "headline": "var(--headline)",
-            "subheadline": "var(--subheadline)",
-            "headline-lg": "var(--headline-lg)",
-            "subheadline-lg": "var(--subheadline-lg)",
-            "body-text-lg": "var(--body-text-lg)",
-            "label-lg": "var(--label-lg)",
-            "code-snippet-lg": "var(--code-snippet-lg)",
-
-            "headline-md": "var(--headline-md)",
-            "subheadline-md": "var(--subheadline-md)",
-            "code-snippet-md": "var(--code-snippet-md)",
-        },
+        // fontSize: {
+        //     "headline": "var(--headline)",
+        //     "subheadline": "var(--subheadline)",
+        //     "headline-lg": "var(--headline-lg)",
+        //     "subheadline-lg": "var(--subheadline-lg)",
+        //     "body-text-lg": "var(--body-text-lg)",
+        //     "label-lg": "var(--label-lg)",
+        //     "code-snippet-lg": "var(--code-snippet-lg)",
+        //
+        //     "headline-md": "var(--headline-md)",
+        //     "subheadline-md": "var(--subheadline-md)",
+        //     "code-snippet-md": "var(--code-snippet-md)",
+        // },
         extend: {
             height: {
                 'header': 'var(--header-size)",'
