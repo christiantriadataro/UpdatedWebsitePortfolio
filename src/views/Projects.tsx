@@ -27,7 +27,7 @@ const Projects = () => {
     );
   });
   return (
-    <div className="h-full sm:w-full flex flex-col sm:flex-row border border-red-500">
+    <div className="h-full sm:w-full flex flex-col sm:flex-row">
       <SideCategories
         categories={categories}
         isCheckedList={isCheckedList}
