@@ -1,8 +1,7 @@
-import {RouterProvider} from "react-router";
-import router from "./routes/RouteIndex.tsx";
-
 export default function App() {
-    return (
-        <RouterProvider router={router}/>
-    )
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
 }

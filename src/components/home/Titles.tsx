@@ -6,7 +6,7 @@ const Titles = () => {
     return (
         <TitlesWrapper>
             <Text variant="subheadline" cn="text-secondary-white animate-bounce" text="Hi all. I am"/>
-            <Text text="Christian Dataro" variant="" cn="text-headline text-secondary-white"/>
+            <Text text="Christian Dataro" variant="headline" cn="text-secondary-white"/>
             <TypeAnimation
                 sequence={[
                     // Same substring at the start will only be typed once, initially

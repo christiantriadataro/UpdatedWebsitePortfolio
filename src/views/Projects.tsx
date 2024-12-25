@@ -1,37 +1,61 @@
-import {useState} from "react";
+import { useState } from "react";
+import data from "../../data/data.json";
+import { IProject } from "../types/dummyData.ts";
 import ProjectCard from "../components/projects/ProjectCard.tsx";
-import ProjectsWrapper from "../components/wrappers/ProjectsWrapper.tsx";
-import ProjectContentWrapper from "../components/wrappers/ProjectContentWrapper.tsx";
-import PROJECTS from "../../dummy-data/data.json"
 import SideCategories from "../components/projects/SideCategories.tsx";
-import {IProjectCategories} from "../types/dummyData.ts";
 
-const Projects = () => {
-    const categories: IProjectCategories[] = PROJECTS.categories
-    const [isCheckedList, setIsCheckedList] = useState<boolean[]>(Array(categories.length).fill(false))
-    const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-
-    const filteredData = PROJECTS.projects.filter((project) => {
-        if (selectedCategories.length === 0) {
-            return true;
-        }
-        return selectedCategories.every((selectedCategory) => project.categories.includes(selectedCategory));
-    });
-    return (
-        <ProjectsWrapper>
-            <SideCategories categories={categories} isCheckedList={isCheckedList} setIsCheckedList={setIsCheckedList}
-                            currentCategory={selectedCategories} setCurrentCategory={setSelectedCategories}/>
-            <ProjectContentWrapper>
-                {selectedCategories.length ? filteredData.reverse().map((project, index) => (
-                    <ProjectCard categories={categories} key={index} project={project}
-                    />
-                )) : filteredData.map((project, index) => (
-                    <ProjectCard categories={categories} key={index} project={project}
-                    />
-                ))}
-            </ProjectContentWrapper>
-        </ProjectsWrapper>
-    )
+interface ICategoryProps {
+  id?: number;
+  name: string;
+  icon: string;
 }
 
-export default Projects
+const Projects = () => {
+  const projects: IProject[] = data["project-page"].projects;
+  const categories: ICategoryProps[] = data["project-page"].categories;
+  const [isCheckedList, setIsCheckedList] = useState<boolean[]>(
+    Array(categories.length).fill(false),
+  );
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+
+  const filteredData = projects.filter((project) => {
+    if (selectedCategories.length === 0) {
+      return true;
+    }
+    return selectedCategories.every((selectedCategory) =>
+      project.categories.includes(selectedCategory),
+    );
+  });
+  return (
+    <div className="h-full sm:w-full flex flex-col sm:flex-row border border-red-500">
+      <SideCategories
+        categories={categories}
+        isCheckedList={isCheckedList}
+        setIsCheckedList={setIsCheckedList}
+        currentCategory={selectedCategories}
+        setCurrentCategory={setSelectedCategories}
+      />
+      <div className="py-8 px-4 gap-y-5 gap-x-5 flex flex-wrap justify-center sm:overflow-y-auto">
+        {selectedCategories.length
+          ? filteredData
+              .reverse()
+              .map((project, index) => (
+                <ProjectCard
+                  categories={categories}
+                  key={index}
+                  project={project}
+                />
+              ))
+          : filteredData.map((project, index) => (
+              <ProjectCard
+                categories={categories}
+                key={index}
+                project={project}
+              />
+            ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;

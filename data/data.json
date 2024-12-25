@@ -1,0 +1,777 @@
+{
+  "home-page": {
+    "roles": [
+      "> Software Engineer",
+      "> Front-End Developer",
+      "> Full-Stack Developer",
+      "> AI Engineer",
+      "> Machine Learning Engineer",
+      "> Data Scientist"
+    ]
+  },
+  "project-page": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Company Projects",
+        "icon": "/assets/icons/company-scale-project.svg"
+      },
+      {
+        "id": 2,
+        "name": "Freelance Projects",
+        "icon": "/assets/icons/small-project.svg"
+      },
+      {
+        "id": 3,
+        "name": "Experimental Projects",
+        "icon": "/assets/icons/side-project.svg"
+      },
+      {
+        "id": 5,
+        "name": "UI/UX Figma",
+        "icon": "/assets/icons/figma.svg"
+      },
+      {
+        "id": 6,
+        "name": "React",
+        "icon": "/assets/icons/react.svg"
+      },
+      {
+        "id": 7,
+        "name": "Tailwind",
+        "icon": "/assets/icons/tailwind.svg"
+      },
+      {
+        "id": 8,
+        "name": "AI/Machine Learning",
+        "icon": "/assets/icons/machine-learning.svg"
+      },
+      {
+        "id": 9,
+        "name": "Java",
+        "icon": "/assets/icons/java.svg"
+      },
+      {
+        "id": 10,
+        "name": "Django",
+        "icon": "/assets/icons/django.svg"
+      },
+      {
+        "id": 11,
+        "name": "Rest API",
+        "icon": "/assets/icons/rest-api.svg"
+      }
+    ],
+    "projects": [
+      {
+        "image": "/assets/image/cubework.jpg",
+        "name": "Cubework US: Admin Console",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Transformed API Fox documentation into functional components for seamless integration with frontend applications.",
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Discussing with US Business Analyst, Chinese Managers, and Project Managers about the functional requirements needed to make sure that it aligns with the timeline.",
+          "Implemented Frontend System Design to make sure the functional requirements aligns with the client needs while optimizing the overall system.",
+          "Implemented Payment Gateway for the Pay and Bill API, Customer Management for the CRM API, and Authorization of IAM API",
+          "Used Technologies: Figma, Tailwind, React, TypeScript, Redux, Axios, Postman, ShadCN, TanStack Query",
+          "Backend Technologies: Java Spring Boot, Spring Boot API Fox (Open API), .NET, .NET API Fox (Open API)"
+        ]
+      },
+      {
+        "image": "/assets/image/cubework.jpg",
+        "name": "Cubework US: Tenant Portal",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Transformed API Fox documentation into functional components for seamless integration with frontend applications.",
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Discussing with US Business Analyst, Chinese Managers, and Project Managers about the functional requirements needed to make sure that it aligns with the timeline.",
+          "Implemented Frontend System Design to make sure the functional requirements aligns with the client needs while optimizing the overall system.",
+          "Implemented Payment Gateway for the Pay and Bill API, Customer Management for the CRM API, and Authorization of IAM API",
+          "Used Technologies: Figma, Tailwind, React, TypeScript, Redux, Axios, Postman, ShadCN, TanStack Query",
+          "Backend Technologies: Java Spring Boot, Spring Boot API Fox (Open API), .NET, .NET API Fox (Open API)"
+        ]
+      },
+      {
+        "image": "/assets/image/inbetween.png",
+        "name": "IN BETWEEN: Agent System",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Created a Prototype to propose a visually appealing and intuitive interfaces to the stakeholders.",
+          "Transformed Swagger API documentation into functional components for seamless integration with frontend applications.",
+          "Established the Web App based on the following: Overall Admin, Admin, Declarator, Guarantor, Master Agent, Sub-Agent, Player",
+          "Collaborated with backend developers to integrated real-time data using Signal R and other backend APIs "
+        ]
+      },
+      {
+        "image": "/assets/image/inbetween.png",
+        "name": "IN BETWEEN",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Created a Prototype to propose a visually appealing and intuitive interfaces to the stakeholders.",
+          "Transformed Swagger API documentation into functional components for seamless integration with frontend applications.",
+          "Established the Web App based on the following: Overall Admin, Admin, Declarator, Guarantor, Master Agent, Sub-Agent, Player",
+          "Collaborated with backend developers to integrated real-time data using Signal R and other backend APIs "
+        ]
+      },
+      {
+        "image": "/assets/image/unodosImage.png",
+        "name": "SABONG (Indonesia): PWA",
+        "categories": [
+          "Company Projects",
+          "React",
+          "UI/UX Figma",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Transformed Swagger API documentation into functional components for seamless integration with frontend applications.",
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Established the Web App based on the following: Overall Admin, Admin, Declarator, Guarantor, Master Agent, Sub-Agent, Player",
+          "Collaborated with backend developers to integrated real-time data using Signal R and other backend APIs "
+        ]
+      },
+      {
+        "image": "/assets/image/unodosImage.png",
+        "name": "SABONG (Phillipine and Korea): PWA",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Transformed Swagger API documentation into functional components for seamless integration with frontend applications.",
+          "Designed UI/UX using Figma to create visually appealing and intuitive interfaces.",
+          "Established the Web App based on the following: Overall Admin, Admin, Declarator, Guarantor, Master Agent, Sub-Agent, Player",
+          "Collaborated with backend developers to integrated real-time data using Signal R and other backend APIs "
+        ]
+      },
+      {
+        "image": "/assets/image/seamac.png",
+        "name": "CourseForge: Course Management System with hybrid recommender system",
+        "categories": [
+          "Freelance Projects",
+          "React",
+          "UI/UX Figma",
+          "Tailwind",
+          "AI/Machine Learning",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
+          "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
+          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Designed a course management module that allows instructors to evaluate each student’s course.",
+          "Constructed an examination module that will be able to make exams provided by the instructors and that will be taken by the students.",
+          "Incorporated a recommendation module for students to learn the topics efficiently.",
+          "Other Technologies: Heroku, Git, WebStorm, Postman, PyCharm Professional, Google Colab, Jupyter Notebook"
+        ]
+      },
+      {
+        "image": "/assets/image/autoaxis.png",
+        "name": "Auto Axis: A Web Auto Repair Shop Management System and a Mobile Proximity Geolocation Services",
+        "categories": [
+          "Freelance Projects",
+          "React",
+          "UI/UX Figma",
+          "Tailwind",
+          "AI/Machine Learning",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
+          "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
+          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Created a reservation module for the customers of Kloud Garage.",
+          "Integrated a vehicle maintenance record module.",
+          "Built an inventory module and a payroll module for the shop and its employees.",
+          "Integrated OpenStreetMap api to serve as the geolocator tool.",
+          "Created a pin locator for roadside/towing services and implement it using the dijkstra algorithm.",
+          "Other Technologies: Heroku, Git, WebStorm, Postman, PyCharm Professional, Google Colab, Jupyter Notebook"
+        ]
+      },
+      {
+        "image": "/assets/image/bbmc-final.png",
+        "name": "Padayon's Tech: Online Ordering and Inventory Management System using Time Series and Analysis with ARIMA Model for Bagong Barrio Merchandise and Construction",
+        "categories": [
+          "Freelance Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind",
+          "AI/Machine Learning",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
+          "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
+          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Preprocessed data using Pandas and NumPy to improve time series analysis and forecasting accuracy.",
+          "Hypertuned the ARIMA model using scikit-learn to optimize forecasting results.",
+          "Created recommendation systems and notifications for predicting the in-demand stocks this month.",
+          "Streamlined the ordering and inventory management process, making it more efficient for users.",
+          "Created a pin locator for roadside/towing services and implement it using the dijkstra algorithm.",
+          "Other Technologies: Heroku, Git, WebStorm, Postman, PyCharm Professional, Google Colab, Jupyter Notebook"
+        ]
+      },
+      {
+        "image": "/assets/image/mdcc.png",
+        "name": "MDCC Intranet: Employees e-learning platform with CMS",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "React",
+          "Tailwind"
+        ],
+        "description": [
+          "Developed MDCC Intranet, an employees e-learning platform with CMS.",
+          "Designed the UI/UX using Figma, resulting in a visually appealing and user-friendly interface.",
+          "Utilized TailwindCSS and jQuery to ensure a seamless user experience.",
+          "Implemented a content management system (CMS) for easy management and updating of platform content.",
+          "Added it to AWS and Azure using Python, ensuring easy access and scalability."
+        ]
+      },
+      {
+        "image": "/assets/image/jeta-final.png",
+        "name": "JETA: The Nutritional meal ordering and Delivery App with Web-based Admin Management",
+        "categories": [
+          "Freelance Projects",
+          "React",
+          "UI/UX Figma",
+          "Tailwind",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Freelance Undergraduate Thesis Project for S.Y. 2022-2023",
+          "Designed the UI/UX of the mobile and website using Figma, resulting in a visually appealing and intuitive interface.",
+          "Built using React.js, TailwindCSS, Django, Kotlin, and MongoDB to ensure a seamless user experience.",
+          "Other Technologies: Heroku, Git, WebStorm, Postman, Android Studio, Intellij IDEA Ultimate"
+        ]
+      },
+      {
+        "image": "/assets/image/iclick-final.png",
+        "name": "iClick: A Mobile and Web-based application for barangay Camp Aguinaldo using Apriori Algorithm",
+        "categories": [
+          "Freelance Projects",
+          "React",
+          "UI/UX Figma",
+          "Tailwind",
+          "AI/Machine Learning",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Freelance Undergraduate Thesis Project for S.Y. 2021-2022",
+          "Designed the UI/UX of the mobile and website using Figma, resulting in a visually appealing and intuitive interface.",
+          "Implemented the Apriori Algorithm to suggest relevant announcements and services to users.",
+          "Utilized React.js, TailwindCSS, Django, Kotlin, and MongoDB to provide a seamless user experience.",
+          "Other Technologies:  Heroku, Git, WebStorm, Postman, Android Studio, Intellij IDEA Ultimate"
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Naive Bees: Image Loading and Processing",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Load, transform, and understand (ETL) images of honey bees and bumble bees in Python."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "The Hottest&nbsp; Topics in Machine Learning",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Used Natural Language Processing on NIPS papers to uncover the trendiest topics in machine learning research."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Naive Bees: Species from Images",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Built a model that can automatically detect and bumble bess in images."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Classify Song Genres from Audio Data",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Rock or rap? Applied machine learning&nbsp; methods in Python to classify songs into genres."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Predict Taxi Fares with Random Forests",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Used regression trees and random forests to find places where New York taxi drivers earn the most."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "ASL Recognition with Deep Learning",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Built a convolutional neural network to classify images of letters from American Sign Language."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Clustering Heart Disease Patient Data",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Experimented with clustering algorithms to help doctors inform treatment for heart disease patients."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Naive Bees: Deep Learning with Images",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Built a deep learning model that can automatically detect honey bees and bumble bees in images."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Predicting Credit Card Approvals",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Built a machine learning model that can predict if a credit card application will get approved."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Degrees that Pay you back",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Explored the salary potential of college majors with a k-means cluster analysis."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Planning Public Policy in Argentina",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Applied unsupervised learning techniques to help plan an education program in Argentina"
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Clustering Bustabit Gambling Behavior",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Used clustering analysis to glen insights into cryptocurrency gambling behavior."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Give Life: Predict Blood Donations",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Built a binary classifier to predict if a blood donor is likely to donate again."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Find Movie Similarity from Plot Summaries",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Used NLP and clustering on movie plot summaries from IMDb and Wikipedia to quantify movie similarity."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Comparing Cosmetics by Ingredients",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Processed Ingredient lists for cosmetics on Sephora then visualize similarity using t-SNE and Bokeh."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "The Impact of Climate&nbsp; Change on Birds",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Predicted the impact of climate change on bird distributions using spatial data and machine learning."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "What Makes a Pokemon Legendary?",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Used tree-based machine learning methods to identify the characteristics of legendary Pokemon."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Predictive Modeling for Agriculture",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Took a hands-on learning into the fascinating world of agriculture with this use case! Discovered how multi-class machine learning is being utilized to assist farmers in cultivating the perfect crop each season. Through hands-on experiences with actual scenarios, I have learned the art of applying supervised ML and feature selection techniques to solve real-world problems."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Predicting Move Rental Durations",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Helped a DVD rental company improved their inventory planning by building a regression model to predict customers DVD rental duration. Assess different regression models to recommend the most effective one to the company."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Interpreting Unsupervised Learning Models",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Arctic Penguin Exploration: Unraveled Clusters in the Icy Domain with K-means Clustering."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Planning a Trip to Paris with the OpenAI API",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Use OpenAI's powerful API to answer questions about tourist attractions in Paris."
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Reducing Traffic Mortality in the USA",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "How can we find a good strategy for reducing traffic-related deaths?"
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Modeling Car Insurance Claim Outcomes",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Cleaned customer data and used logictic regression to predict whether people will make a claim on their car insurance!"
+        ]
+      },
+      {
+        "image": "/assets/image/datacamp.png",
+        "name": "Predicting Temperature in London",
+        "categories": [
+          "Experimental Projects",
+          "AI/Machine Learning"
+        ],
+        "description": [
+          "Perform a machine learning experiment to find the best modal that predicts the temperature in London!"
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Cinema REST&nbsp;Room Manager",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "In this project, We created a simple Spring REST service that helped to manage a small movie theater. It handles HTTP requests in controllers, create services, and respond with JSON objects."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Readability Score",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "You will understand the process of developing such a complex program as a game and learn about processing user input and handling errors."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Battleship",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "You will understand the process of developing such a complex program as a game and learn about processing user input and handling errors."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Traffic Light",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "By the end of this project, in addition to creating your own 'traffic light', you will learn how to work with multi-threading, handle exceptions, inherit classes, and implement and apply the circular queue data structure"
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Rock-Paper-Scissors",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "A playable Rock-Paper-Scissors game, with a Player vs. Computer mode. Practice using arrays, the Random class, formatted strings, and algorithms."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Bulls and Cows",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "Learn how to use integer arithmetic, generate random numbers, store data in data structures, and handle errors"
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Chuck Norris Cipher En coder",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "This project will allow us to deal with string and character variables and work with loops and conditional statements. Get familiar with the binary notation and data type conversion. Create an application for the unary representation and decoding of any text."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Coffee Machine",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "This project allows to better understand the basic OOP, its main concepts such as classes, class methods and attributes, and get a taste of Java. Practice working with methods, challenge yourself with loops and conditions, and get more confident with OOP."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Amazing Numbers",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "The project covers basic operations on integers, as well as with collections. Make a program that indicates the properties of the numbers taken from the input"
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Simple Tic-Tac-Toe",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "After finishing this project, We getting to know a lot about planning and developing a complex program from scratch, using methods, nested lists, list comprehension, handling errors, and processing user input."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Cinema Room Manager ",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "This project is a good opportunity to work with input and output in Java. You will deal with arrays and functions as well as loops and conditional statements."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Zookeeper",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "It helps you understand some syntax basics and learn how to work with variables, data storage types such as arrays, and while loops."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_java.png",
+        "name": "Simple Chatty Bot",
+        "categories": [
+          "Experimental Projects",
+          "Java",
+          "REST API"
+        ],
+        "description": [
+          "Getting to know the basic syntax of Java and write a simple program using variables, conditions, loops, and methods."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_django_python.png",
+        "name": "HyperSchool",
+        "categories": [
+          "Experimental Projects",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Created models and forms. Also, developed a page templates and understand how to store and represent data with Django."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_django_python.png",
+        "name": "HyperNews Portal",
+        "categories": [
+          "Experimental Projects",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "I learn the basics of creating web applications with the Django framework: handle data through HTTP and work with HTML templates. The project also work with json files and python DataTime type, as well as design using vanilla CSS."
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_django_python.png",
+        "name": "HyperJob Agency",
+        "categories": [
+          "Experimental Projects",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "Created a dynamic website with Django.&nbsp;"
+        ]
+      },
+      {
+        "image": "/assets/image/jetbrains_django_python.png",
+        "name": "HyperForms",
+        "categories": [
+          "Experimental Projects",
+          "Django",
+          "REST API"
+        ],
+        "description": [
+          "I set up a simple Django project. Handle requests and made templates for the web pages. Also, It has how to save and retrieve data from a database"
+        ]
+      }
+    ]
+  }
+}

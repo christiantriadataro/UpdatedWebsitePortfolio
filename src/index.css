@@ -10,7 +10,7 @@
     }
 
     #root {
-        @apply relative h-screen w-screen p-5 xl:p-20 flex justify-center items-center;
+        @apply relative h-screen w-screen p-4 flex justify-center items-center;
     }
 }
 
@@ -63,14 +63,24 @@
         --background-color: #010C15;
 
         /* typography */
-        --headline: 62px;
-        --subheadline: 32px;
-        --body-text: 18px;
-        --label: 16px;
-        --code-snippet: 14px;
+        --headline-lg: 62px;
+        --subheadline-lg: 32px;
+        --body-text-lg: 18px;
+        --label-lg: 16px;
+        --code-snippet-lg: 14px;
 
         /*  magic number  */
         --header-size: 56px;
+
+        /*  typography medium  */
+        --headline-md: 48px;
+        --subheadline-md: 24px;
+        --code-snippet-md: 10px;
+
+        /*  typogrphy small  */
+        --headline: 62px;
+        --subheadline: 20px;
+
     }
 
     ::-webkit-scrollbar-track-piece {
@@ -105,7 +115,7 @@
     }
 
     .link-wrapper {
-        @apply inline lg:flex justify-end w-full lg:w-full h-full;
+        @apply inline lg:flex justify-end w-full lg:w-fit h-full;
     }
 
     .name-wrapper {
@@ -130,11 +140,11 @@
     }
 
     .heading-name {
-        @apply py-4 text-secondary-blue w-full hover:bg-gray-800 flex items-center justify-center pl-5 text-[10px] lg:text-[13px];
+        @apply py-4 text-secondary-blue w-full hover:bg-gray-800 flex items-center pl-5;
     }
 
     .heading-link {
-        @apply text-[10px] py-1 border-l border-lines xl:w-[150px] lg:w-[120px] lg:text-[13px] flex justify-center items-center hover:bg-gray-800 border-b-2;
+        @apply border-l border-lines lg:w-[150px] flex justify-center items-center hover:bg-gray-800 border-b-2;
     }
 
     .heading-link-active {
@@ -184,6 +194,7 @@
     font-family: 'Fira Code', serif;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
+    /*-moz-osx-font-smoothing: grayscale;*/
 }
 
 
