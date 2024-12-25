@@ -1,6 +1,6 @@
 import { Link, Outlet } from "@tanstack/react-router";
-import MenuIcon from "../../assets/icons/Menu.svg";
-import CloseIcon from "../../assets/icons/close-icon.svg";
+import MenuIcon from "/assets/icons/Menu.svg";
+import CloseIcon from "/assets/icons/close-icon.svg";
 import { ROUTES_TABS } from "../../main.tsx";
 import { useState } from "react";
 import LinkedInIcon from "../icons/LinkedInIcon.tsx";
@@ -9,10 +9,12 @@ import { GITHUB_LINK, LINKEDIN_LINK } from "../../constants/env.ts";
 
 const FOOTER_LINKS = [
   {
+    id: 1,
     path: LINKEDIN_LINK,
     component: <LinkedInIcon className="fill-secondary-blue w-6 h-6" />,
   },
   {
+    id: 2,
     path: GITHUB_LINK,
     component: <GithubIcon className="fill-secondary-blue w-[24px] h-[24px]" />,
   },
@@ -27,6 +29,7 @@ const Footer = () => {
       <div className="flex flex-row h-[40px]">
         {FOOTER_LINKS.map((tab) => (
           <Link
+            key={tab.id}
             to={tab.path}
             className="h-full border-l border-lines flex items-center px-2"
           >
@@ -72,7 +75,7 @@ const MainLayout = () => {
       {isMenuOpen ? (
         <div className="h-full"></div>
       ) : (
-        <div className="h-full">
+        <div className="h-full overflow-y-auto">
           <Outlet />
         </div>
       )}
