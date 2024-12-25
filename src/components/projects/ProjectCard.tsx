@@ -90,7 +90,7 @@ const ProjectCard = ({ project, categories }: IProjectCardProps) => {
         <div className="w-full h-4/6 text-secondary-blue text-[10px] px-3 pb-4 no-scrollbar overflow-y-auto">
           <div className="sticky top-0 flex justify-between  pt-2 bg-[#011627]">
             <Link
-              to="/not-found"
+              to={"/not-found" as string}
               className="flex gap-2 items-center px-1 py-2 group hover:bg-gray-800"
             >
               <div>
@@ -101,7 +101,7 @@ const ProjectCard = ({ project, categories }: IProjectCardProps) => {
               </div>
             </Link>
             <Link
-              to="/not-found"
+              to={"/not-found" as string}
               className="group flex gap-2 py-2 px-1 items-center hover:bg-gray-800"
             >
               <div>
@@ -112,7 +112,7 @@ const ProjectCard = ({ project, categories }: IProjectCardProps) => {
               </div>
             </Link>
             <Link
-              to="/not-found"
+              to={"/not-found" as string}
               className="group flex gap-2 py-2 px-1 items-center hover:bg-gray-800"
             >
               <div>
