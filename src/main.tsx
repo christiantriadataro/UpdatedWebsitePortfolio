@@ -26,7 +26,7 @@ interface IRouteTabsProps {
 export const ROUTES_TABS: IRouteTabsProps[] = [
   {
     name: "_hello",
-    path: "/home",
+    path: "/",
     component: Home,
   },
   {
