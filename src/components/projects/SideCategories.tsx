@@ -41,7 +41,7 @@ const SideCategories = ({
   return (
     <>
       {/*<div className="w-full  lg:h-full flex flex-col border-r border-lines"></div>*/}
-      <div className="sm:min-w-72 w-full h-full xl:w-4/12 lg:w-3/12 border-r border-lines">
+      <div className="sm:min-w-72 w-full h-fit lg:h-full xl:w-4/12 lg:w-3/12 border-r border-lines">
         <button
           className={`w-full h-[35px] border-b border-lines
                             flex flex-row pl-4 items-center gap-2`}
@@ -52,19 +52,21 @@ const SideCategories = ({
           />
           <div className="text-gray-50 text-[13px]">projects</div>
         </button>
-        <div
-          className={`${isOpen ? "" : "hidden"} transition duration-100 text-[13px] text-[#273E53]`}
-        >
-          {categories.map((category: IProjectCategories, index: number) => (
-            <FilterItem
-              title={category.name}
-              icon={category.icon}
-              onCheck={() => handleChecked(index)}
-              isChecked={isCheckedList[index]}
-              key={category.name}
-            />
-          ))}
-        </div>
+        {isOpen && (
+          <div
+            className={`${isOpen ? "" : "hidden"} transition duration-100 text-[13px] text-[#273E53]`}
+          >
+            {categories.map((category: IProjectCategories, index: number) => (
+              <FilterItem
+                title={category.name}
+                icon={category.icon}
+                onCheck={() => handleChecked(index)}
+                isChecked={isCheckedList[index]}
+                key={category.name}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

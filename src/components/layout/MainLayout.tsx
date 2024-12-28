@@ -31,7 +31,7 @@ const Footer = () => {
           <Link
             key={tab.id}
             to={tab.path}
-            className="h-full border-l border-lines flex items-center px-2"
+            className="h-full border-l border-lines flex items-center px-[2.3px]"
           >
             {tab.component}
           </Link>
@@ -49,29 +49,37 @@ const MainLayout = () => {
   return (
     <div className="relative bg-primary-blue h-full w-full border border-lines rounded-lg text-white flex flex-col">
       {/* header */}
-      <div className="py-4 border-b border-lines flex items-center justify-between px-3">
-        <div className="text-code-snippet-lg text-secondary-blue">
-          christian-tria-dataro
-        </div>
-        <img
-          onClick={handleClick}
-          src={isMenuOpen ? CloseIcon : MenuIcon}
-          alt=""
-          className="w-4 h-4 cursor-pointer"
-        />
-      </div>
-      <div className={`flex flex-col ${isMenuOpen ? "" : "hidden"}`}>
-        {ROUTES_TABS.map((tab) => (
-          <Link
-            key={tab.name}
-            to={tab.path}
+      <div className="w-full border-b border-lines flex lg:flex-row flex-col">
+        <div className="flex lg:w-full items-center justify-between px-4 max-sm:border-b max-sm:border-lines">
+          <div className="py-4 flex items-center text-code-snippet-lg text-secondary-blue w-full">
+            christian-tria-dataro
+          </div>
+          <img
             onClick={handleClick}
-            className="hover:bg-gray-600 hover:text-accent-orange py-4 px-4 border-b border-lines [&.active]:text-accent-orange"
-          >
-            {tab.name}
-          </Link>
-        ))}
+            src={isMenuOpen ? CloseIcon : MenuIcon}
+            alt=""
+            className="lg:hidden w-4 h-4 cursor-pointer"
+          />
+        </div>
+        <div
+          className={`flex flex-col lg:flex-row w-full ${isMenuOpen ? "" : "max-sm:hidden"}`}
+        >
+          {ROUTES_TABS.map((tab) => (
+            <Link
+              key={tab.name}
+              to={tab.path}
+              activeProps={{
+                className:
+                  "lg:border-b lg:border-accent-orange max-sm:text-accent-orange lg:text-secondary-white",
+              }}
+              className="lg:text-secondary-blue hover:bg-gray-600 hover:text-accent-orange [&.active]:text-secondary-white  lg:flex lg:items-center lg:justify-center py-4 max-sm:px-4 lg:w-full "
+            >
+              {tab.name}
+            </Link>
+          ))}
+        </div>
       </div>
+
       {isMenuOpen ? (
         <div className="h-full"></div>
       ) : (
@@ -79,7 +87,6 @@ const MainLayout = () => {
           <Outlet />
         </div>
       )}
-
       <Footer />
     </div>
   );

@@ -35,24 +35,37 @@ const Projects = () => {
         currentCategory={selectedCategories}
         setCurrentCategory={setSelectedCategories}
       />
-      <div className="py-8 px-4 gap-y-5 gap-x-5 flex flex-wrap justify-center sm:overflow-y-auto">
-        {selectedCategories.length
-          ? filteredData
-              .reverse()
-              .map((project, index) => (
+      <div className="w-full h-full flex flex-col">
+        <div className=" w-full border-b border-lines text-sm text-secondary-blue">
+          {selectedCategories.length > 0 ? (
+            <div className="border-r py-1 lg:py-[7px] flex items-center w-fit px-3 border-lines h-full">
+              {selectedCategories.map((category) => `${category};`)}
+            </div>
+          ) : (
+            <div className="my-9">
+              {selectedCategories.map((category) => `${category};`)}
+            </div>
+          )}
+        </div>
+        <div className="py-8 max-sm:px-16 lg:px-4 gap-y-5 gap-x-5 flex flex-wrap justify-center sm:overflow-y-auto">
+          {selectedCategories.length
+            ? filteredData
+                .reverse()
+                .map((project, index) => (
+                  <ProjectCard
+                    categories={categories}
+                    key={index}
+                    project={project}
+                  />
+                ))
+            : filteredData.map((project, index) => (
                 <ProjectCard
                   categories={categories}
                   key={index}
                   project={project}
                 />
-              ))
-          : filteredData.map((project, index) => (
-              <ProjectCard
-                categories={categories}
-                key={index}
-                project={project}
-              />
-            ))}
+              ))}
+        </div>
       </div>
     </div>
   );

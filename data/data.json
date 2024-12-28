@@ -9,6 +9,114 @@
       "> Data Scientist"
     ]
   },
+  "about-me": {
+    "moocs": [
+      {
+        "title": "Introduction to Python",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Introduction to SQL",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Data Manipulation with pandas",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Introduction to Git",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Introduction to Functions in Python",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Introduction to Data Science in Python",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Intermediate Git",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Introduction to GitHub Concepts",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Software Engineering Principles in Python",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Intermediate GitHub Concepts",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "GitHub Foundations",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Understanding Data Science",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Understanding Machine Learning",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Intermediate Python",
+        "image": "/assets/image/datacamp.png"
+      },
+      {
+        "title": "Intermediate React",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Complete Intro to React, v8",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Git in depth",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Figma for Developers",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Design for Developers",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "CSS & Flexbox for Responsive Layouts",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Getting Started with CSS",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Complete Intro to Web Development v1",
+        "image": "/assets/image/frontendmasters.png"
+      },
+      {
+        "title": "Crash Course on Python",
+        "image": "/assets/image/coursera.jpg"
+      },
+      {
+        "title": "Requirements Gathering for Software Development",
+        "image": "/assets/image/coursera.jpg"
+      },
+      {
+        "title": "Programming for Everybody (Getting Started with Python)",
+        "image": "/assets/image/coursera.jpg"
+      },
+      {
+        "title": "CCNA R&S: Introduction to Networks",
+        "image": "/assets/image/cisco.png"
+      }
+    ]
+  },
   "project-page": {
     "categories": [
       {
