@@ -42,7 +42,7 @@ const Footer = () => {
 };
 
 const MainLayout = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleClick = () => setIsMenuOpen(!isMenuOpen);
 
@@ -68,10 +68,9 @@ const MainLayout = () => {
             <Link
               key={tab.name}
               to={tab.path}
-              onClick={handleClick}
               activeProps={{
                 className:
-                  "lg:border-b lg:border-accent-orange max-sm:text-accent-orange text-secondary-white",
+                  "lg:border-b lg:border-accent-orange max-sm:text-accent-orange lg:text-secondary-white",
               }}
               className="lg:text-secondary-blue hover:bg-gray-600 hover:text-accent-orange [&.active]:text-secondary-white  lg:flex lg:items-center lg:justify-center py-4 max-sm:px-4 lg:w-full "
             >

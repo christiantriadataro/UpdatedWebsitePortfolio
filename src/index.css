@@ -12,6 +12,10 @@
     #root {
         @apply relative h-screen w-screen p-4 flex justify-center items-center;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 @layer utilities {
