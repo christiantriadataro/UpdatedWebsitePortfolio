@@ -1,12 +1,7 @@
 {
   "home-page": {
     "roles": [
-      "> Software Engineer",
-      "> Front-End Developer",
-      "> Full-Stack Developer",
-      "> AI Engineer",
-      "> Machine Learning Engineer",
-      "> Data Scientist"
+      "> Software Engineer"
     ]
   },
   "about-me": {
@@ -173,13 +168,32 @@
     "projects": [
       {
         "image": "/assets/image/cubework.jpg",
+        "name": "Veteran Job Application System",
+        "categories": [
+          "Company Projects",
+          "UI/UX Figma",
+          "Next",
+          "Tailwind",
+          "NestJS",
+          "REST API"
+        ],
+        "description": [
+          "Resolving tickets within the jira board",
+          "Troubleshooting and resolving technical issues in Production, and UAT with front and back end as a Support to fix client issues",
+          "Implemented a Database MongoDB and API design to the project’s backend using NestJS",
+          "Refactored Legacy Codebase into modernized and configurable codebase.",
+          "Used Technologies: NextJS, Tanstack Query, Typescript, husky, lint-staged, MUI, Git, GitHub, Jira, Confluence, WebStorm, FormBuilder, Postman, Turbo, AWS, Zod, jenkins, NestJS, CASL, Swagger, Nodemailer, jest, Unix/Linux, Powershell."
+        ]
+      },
+      {
+        "image": "/assets/image/cubework.jpg",
         "name": "Cubework US: Admin Console",
         "categories": [
           "Company Projects",
           "UI/UX Figma",
           "React",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -200,7 +214,7 @@
           "UI/UX Figma",
           "React",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -221,7 +235,7 @@
           "UI/UX Figma",
           "React",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -240,7 +254,7 @@
           "UI/UX Figma",
           "React",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -259,7 +273,7 @@
           "React",
           "UI/UX Figma",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -277,7 +291,7 @@
           "UI/UX Figma",
           "React",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
@@ -296,13 +310,13 @@
           "UI/UX Figma",
           "Tailwind",
           "AI/Machine Learning",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
           "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
           "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
-          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Built using React.js, TailwindCSS, MongoDB, and NestJs, ensuring a seamless user experience.",
           "Designed a course management module that allows instructors to evaluate each student’s course.",
           "Constructed an examination module that will be able to make exams provided by the instructors and that will be taken by the students.",
           "Incorporated a recommendation module for students to learn the topics efficiently.",
@@ -318,13 +332,13 @@
           "UI/UX Figma",
           "Tailwind",
           "AI/Machine Learning",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
           "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
           "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
-          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Built using React.js, TailwindCSS, MongoDB, and NestJs, ensuring a seamless user experience.",
           "Created a reservation module for the customers of Kloud Garage.",
           "Integrated a vehicle maintenance record module.",
           "Built an inventory module and a payroll module for the shop and its employees.",
@@ -342,13 +356,13 @@
           "React",
           "Tailwind",
           "AI/Machine Learning",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
           "Freelance Undergraduate Thesis Project for S.Y. 2023-2024",
           "Designed the UI/UX using Figma, resulting in a visually appealing and intuitive interface.",
-          "Built using React.js, TailwindCSS, MongoDB, and Django, ensuring a seamless user experience.",
+          "Built using React.js, TailwindCSS, MongoDB, and NestJs, ensuring a seamless user experience.",
           "Preprocessed data using Pandas and NumPy to improve time series analysis and forecasting accuracy.",
           "Hypertuned the ARIMA model using scikit-learn to optimize forecasting results.",
           "Created recommendation systems and notifications for predicting the in-demand stocks this month.",
@@ -382,13 +396,13 @@
           "React",
           "UI/UX Figma",
           "Tailwind",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
           "Freelance Undergraduate Thesis Project for S.Y. 2022-2023",
           "Designed the UI/UX of the mobile and website using Figma, resulting in a visually appealing and intuitive interface.",
-          "Built using React.js, TailwindCSS, Django, Kotlin, and MongoDB to ensure a seamless user experience.",
+          "Built using React.js, TailwindCSS, NestJs, Kotlin, and MongoDB to ensure a seamless user experience.",
           "Other Technologies: Heroku, Git, WebStorm, Postman, Android Studio, Intellij IDEA Ultimate"
         ]
       },
@@ -401,14 +415,14 @@
           "UI/UX Figma",
           "Tailwind",
           "AI/Machine Learning",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
           "Freelance Undergraduate Thesis Project for S.Y. 2021-2022",
           "Designed the UI/UX of the mobile and website using Figma, resulting in a visually appealing and intuitive interface.",
           "Implemented the Apriori Algorithm to suggest relevant announcements and services to users.",
-          "Utilized React.js, TailwindCSS, Django, Kotlin, and MongoDB to provide a seamless user experience.",
+          "Utilized React.js, TailwindCSS, NestJs, Kotlin, and MongoDB to provide a seamless user experience.",
           "Other Technologies:  Heroku, Git, WebStorm, Postman, Android Studio, Intellij IDEA Ultimate"
         ]
       },
@@ -837,11 +851,11 @@
         "name": "HyperSchool",
         "categories": [
           "Experimental Projects",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
-          "Created models and forms. Also, developed a page templates and understand how to store and represent data with Django."
+          "Created models and forms. Also, developed a page templates and understand how to store and represent data with NestJs."
         ]
       },
       {
@@ -849,7 +863,7 @@
         "name": "HyperNews Portal",
         "categories": [
           "Experimental Projects",
-          "Django",
+          "NestJs",
           "REST API"
         ],
         "description": [
