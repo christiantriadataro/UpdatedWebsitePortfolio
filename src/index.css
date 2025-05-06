@@ -67,11 +67,11 @@
         --background-color: #010C15;
 
         /* typography */
-        --headline-lg: 62px;
-        --subheadline-lg: 32px;
-        --body-text-lg: 18px;
-        --label-lg: 16px;
-        --code-snippet-lg: 14px;
+        --headline-xl: 62px;
+        --subheadline-xl: 32px;
+        --body-text-xl: 18px;
+        --label-xl: 16px;
+        --code-snippet-xl: 14px;
 
         /*  magic number  */
         --header-size: 56px;
@@ -115,11 +115,11 @@
 
 
     .menu-button {
-        @apply lg:hidden p-2 pr-4;
+        @apply xl:hidden p-2 pr-4;
     }
 
     .link-wrapper {
-        @apply inline lg:flex justify-end w-full lg:w-fit h-full;
+        @apply inline xl:flex justify-end w-full xl:w-fit h-full;
     }
 
     .name-wrapper {
@@ -132,11 +132,11 @@
 
 
     .home-content-wrapper {
-        @apply h-full flex items-center justify-center lg:justify-evenly text-white;
+        @apply h-full flex items-center justify-center xl:justify-evenly text-white;
     }
 
     .header-wrapper {
-        @apply z-20 w-full border-b border-lines flex flex-col lg:flex-row justify-between items-center;
+        @apply z-20 w-full border-b border-lines flex flex-col xl:flex-row justify-between items-center;
     }
 
     .main-layout-wrapper {
@@ -148,11 +148,11 @@
     }
 
     .heading-link {
-        @apply border-l border-lines lg:w-[150px] flex justify-center items-center hover:bg-gray-800 border-b-2;
+        @apply border-l border-lines xl:w-[150px] flex justify-center items-center hover:bg-gray-800 border-b-2;
     }
 
     .heading-link-active {
-        @apply text-accent-orange lg:border-b-accent-orange font-semibold lg:text-gray-300;
+        @apply text-accent-orange xl:border-b-accent-orange font-semibold xl:text-gray-300;
     }
 
     .heading-link-default {
@@ -160,11 +160,11 @@
     }
 
     .footer-wrapper {
-        @apply z-20 text-[14px] lg:text-[12px] text-secondary-blue flex flex-row justify-between items-center h-[56px] border-t border-lines;
+        @apply z-20 text-[14px] xl:text-[12px] text-secondary-blue flex flex-row justify-between items-center h-[56px] border-t border-lines;
     }
 
     .footer-text {
-        @apply w-1/2 h-full lg:w-[121px] border-l border-lines flex items-center pl-4
+        @apply w-1/2 h-full xl:w-[121px] border-l border-lines flex items-center pl-4
     }
 
     .footer-link {

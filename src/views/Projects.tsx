@@ -47,7 +47,7 @@ const Projects = () => {
             </div>
           )}
         </div>
-        <div className="py-8 max-sm:px-16 lg:px-4 gap-y-5 gap-x-5 flex flex-wrap justify-center sm:overflow-y-auto">
+        <div className="py-8 max-md:px-16 lg:px-4 gap-y-5 gap-x-5 flex flex-wrap justify-center md:overflow-y-auto">
           {selectedCategories.length
             ? filteredData
                 .reverse()
